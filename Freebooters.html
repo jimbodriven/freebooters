@@ -1,0 +1,1773 @@
+<div class="sheet-col">
+    <div class="sheet-row sheet-black sheet-pad sheet-title-bar">
+        <div class="sheet-row sheet-pad sheet-title">
+            <h1>Level</h1>
+            <input type="number" name="attr_level" value="1" />
+            <select name="attr_class">
+                <option value="Cleric">Cleric</option>
+                <option value="Fighter">Fighter</option>
+                <option value="Magic User">Magic User</option>
+                <option value="Thief">Thief</option>
+            </select>
+        </div>
+        <div class="sheet-pad">
+            <h1>
+                <a href="https://goo.gl/MhWaoi" target="_blank">Freebooters on the Frontier</a>
+            </h1>
+        </div>
+    </div>
+    <hr />
+    <div class="sheet-row">
+        <div class="sheet-col sheet-booty">
+            <div class="sheet-col sheet-border">
+                <div class="sheet-row">
+                    <div class="sheet-pad">
+                        <span class="sheet-h2">Gear</span>
+                        <fieldset class="repeating_gear">
+                            <input type="text" name="attr_item_description" placeholder="item description" />
+                            wt. <input type="number" name="attr_item_weight" />
+                            <input type="text" name="attr_item_tags" placeholder="tags" />
+                            uses <input type="number" name="attr_item_uses" />
+                        </fieldset>
+                    </div>
+                    <div class="sheet-col sheet-center sheet-pad">
+                        <div class="sheet-col sheet-center">
+                            <span class="sheet-h2">Silver on Hand</span>
+                            <div class="sheet-sack">
+                                <input type="number" name="attr_silver_on_hand" value="0" />
+                            </div>
+                        </div>
+                        <div class="sheet-col sheet-center">
+                            <span class="sheet-h2">Silver in Stash</span>
+                            <span class="sheet-h3">(1 circle = 100sp = 1XP)</span>
+                            <div class="sheet-chest">
+                                <div class="sheet-stash-box">
+                                    <input type="radio" class="sheet-normal sheet-zero" name="attr_silver_in_stash" value="0" checked="checked" /><span></span>
+                                    <br/>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="1" /><span></span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="2" /><span></span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="3" /><span></span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="4" /><span></span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="5" /><span></span>
+                                    <span class="sheet-divide">&nbsp;</span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="6" /><span></span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="7" /><span></span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="8" /><span></span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="9" /><span></span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="10" /><span></span>
+                                    <span class="sheet-divide">&nbsp;</span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="11" /><span></span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="12" /><span></span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="13" /><span></span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="14" /><span></span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="15" /><span></span>
+                                    <span class="sheet-divide">&nbsp;</span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="16" /><span></span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="17" /><span></span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="18" /><span></span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="19" /><span></span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="20" /><span></span>
+                                    <span class="sheet-divide">&nbsp;</span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="21" /><span></span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="22" /><span></span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="23" /><span></span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="24" /><span></span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="25" /><span></span>
+                                    <span class="sheet-divide">&nbsp;</span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="26" /><span></span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="27" /><span></span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="28" /><span></span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="29" /><span></span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="30" /><span></span>
+                                    <span class="sheet-divide">&nbsp;</span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="31" /><span></span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="32" /><span></span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="33" /><span></span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="34" /><span></span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="35" /><span></span>
+                                    <span class="sheet-divide">&nbsp;</span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="36" /><span></span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="37" /><span></span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="38" /><span></span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="39" /><span></span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="40" /><span></span>
+                                    <span class="sheet-divide">&nbsp;</span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="41" /><span></span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="42" /><span></span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="43" /><span></span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="44" /><span></span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="45" /><span></span>
+                                    <span class="sheet-divide">&nbsp;</span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="46" /><span></span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="47" /><span></span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="48" /><span></span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="49" /><span></span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="50" /><span></span>
+                                    <span class="sheet-divide">&nbsp;</span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="51" /><span></span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="52" /><span></span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="53" /><span></span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="54" /><span></span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="55" /><span></span>
+                                    <span class="sheet-divide">&nbsp;</span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="56" /><span></span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="57" /><span></span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="58" /><span></span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="59" /><span></span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="50" /><span></span>
+                                    <span class="sheet-divide">&nbsp;</span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="61" /><span></span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="62" /><span></span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="63" /><span></span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="64" /><span></span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="65" /><span></span>
+                                    <span class="sheet-divide">&nbsp;</span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="66" /><span></span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="67" /><span></span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="68" /><span></span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="69" /><span></span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="70" /><span></span>
+                                    <span class="sheet-divide">&nbsp;</span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="71" /><span></span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="72" /><span></span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="73" /><span></span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="74" /><span></span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="75" /><span></span>
+                                    <span class="sheet-divide">&nbsp;</span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="76" /><span></span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="77" /><span></span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="78" /><span></span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="79" /><span></span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="80" /><span></span>
+                                    <span class="sheet-divide">&nbsp;</span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="81" /><span></span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="82" /><span></span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="83" /><span></span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="84" /><span></span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="85" /><span></span>
+                                    <span class="sheet-divide">&nbsp;</span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="86" /><span></span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="87" /><span></span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="88" /><span></span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="89" /><span></span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="90" /><span></span>
+                                    <span class="sheet-divide">&nbsp;</span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="91" /><span></span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="92" /><span></span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="93" /><span></span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="94" /><span></span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="95" /><span></span>
+                                    <span class="sheet-divide">&nbsp;</span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="96" /><span></span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="97" /><span></span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="98" /><span></span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="99" /><span></span>
+                                    <input type="radio" class="sheet-normal" name="attr_silver_in_stash" value="100" /><span></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sheet-row">
+                    <div class="sheet-col sheet-pad">
+                        <span class="sheet-h2">Capacity</span>
+                        <div class="sheet-row sheet-start sheet-center">
+                            <div class="sheet-col sheet-center">
+                                <input type="number" name="attr_capacity_mod" value="2" />
+                                <span>Load</span>
+                            </div>
+                            <span class="sheet-divide">+</span>
+                            <div class="sheet-col sheet-center">
+                                <span name="attr_STR" class="sheet-reaodnly-field">0</span>
+                                <span>STR</span>
+                            </div>
+                            <span class="sheet-divide">=</span>
+                            <input type="number" name="attr_capacity" value="@{STR}+@{capacity_mod}" value="2" disabled="true" />
+                        </div>
+                    </div>
+                    <div class="sheet-col sheet-center sheet-pad">
+                        <span class="sheet-h2">Carried</span>
+                        <input type="number" name="attr_carried" value="10" />
+                    </div>
+                    <div class="sheet-col sheet-pad">
+                        <span class="sheet-h2">Shoulder Burden</span>
+                        <span>
+                            When you carry more weight than your Capacity but equal
+                            to or less than twice your Capacity, you suffer -1
+                            ongoing until you lighten your load. When you carry
+                            more than twice your Capcity, you are slow and clumsy.
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <hr />
+            <div class="sheet-col sheet-border sheet-pad">
+                <div class="sheet-row">
+                    <div class="sheet-col">
+                        <span class="sheet-h2">Appearance</span>
+                        <textarea name="attr_appearance" class="sheet-notes"></textarea>
+                    </div>
+                    <div class="sheet-col">
+                        <span class="sheet-h2">Traits</span>
+                        <textarea name="attr_traits" class="sheet-notes"></textarea>
+                    </div>
+                    <div class="sheet-col">
+                        <span class="sheet-h2">Heritage</span>
+                        <textarea name="attr_heritage" class="sheet-notes"></textarea>
+                    </div>
+                    <div class="sheet-col">
+                        <span class="sheet-h2">Alignment</span>
+                        <textarea name="attr_alignment" class="sheet-notes"></textarea>
+                    </div>
+                </div>
+                <div class="sheet-XpTrack">
+                    <span class="sheet-h2">Experience Points (XP)</span>
+                    <input type="radio" class="sheet-normal sheet-zero" name="attr_xp" value="0" checked="checked" /><span></span>
+                    <br />
+                    
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="1" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="2" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="3" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="4" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="5" /><span></span>
+                    <span class-"sheet-divide">&nbsp;</span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="6" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="7" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="8" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="9" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="10" /><span></span>
+                    <span class="divide">➞</span>
+                    <span>Level 2</span>
+                    <br />
+                    
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="11" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="12" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="13" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="14" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="15" /><span></span>
+                    <span class-"sheet-divide">&nbsp;</span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="16" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="17" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="18" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="19" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="20" /><span></span>
+                    <span class-"sheet-divide">&nbsp;</span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="21" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="22" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="23" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="24" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="25" /><span></span>
+                    <span class="divide">➞</span>
+                    <span>Level 3</span>
+                    <br />
+                    
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="26" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="27" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="28" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="29" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="30" /><span></span>
+                    <span class-"sheet-divide">&nbsp;</span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="31" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="32" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="33" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="34" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="35" /><span></span>
+                    <span class-"sheet-divide">&nbsp;</span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="36" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="37" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="38" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="39" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="40" /><span></span>
+                    <span class-"sheet-divide">&nbsp;</span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="41" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="42" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="43" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="44" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="45" /><span></span>
+                    <span class="divide">➞</span>
+                    <span>Level 4</span>
+                    <br />
+                    
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="46" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="47" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="48" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="49" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="50" /><span></span>
+                    <span class-"sheet-divide">&nbsp;</span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="51" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="52" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="53" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="54" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="55" /><span></span>
+                    <span class-"sheet-divide">&nbsp;</span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="56" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="57" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="58" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="59" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="60" /><span></span>
+                    <span class-"sheet-divide">&nbsp;</span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="61" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="62" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="63" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="64" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="65" /><span></span>
+                    <span class-"sheet-divide">&nbsp;</span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="66" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="67" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="68" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="69" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="70" /><span></span>
+                    <span class="divide">➞</span>
+                    <span>Level 5</span>
+                    <br />
+                    
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="71" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="72" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="73" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="74" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="75" /><span></span>
+                    <span class-"sheet-divide">&nbsp;</span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="76" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="77" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="78" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="79" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="80" /><span></span>
+                    <span class-"sheet-divide">&nbsp;</span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="81" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="82" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="83" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="84" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="85" /><span></span>
+                    <span class-"sheet-divide">&nbsp;</span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="86" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="87" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="88" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="89" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="90" /><span></span>
+                    <span class-"sheet-divide">&nbsp;</span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="91" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="92" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="93" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="94" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="95" /><span></span>
+                    <span class-"sheet-divide">&nbsp;</span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="96" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="97" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="98" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="99" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="100" /><span></span>
+                    <span class="divide">➞</span>
+                    <span>Level 6</span>
+                    <br />
+
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="101" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="102" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="103" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="104" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="105" /><span></span>
+                    <span class-"sheet-divide">&nbsp;</span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="106" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="107" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="108" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="109" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="110" /><span></span>
+                    <span class-"sheet-divide">&nbsp;</span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="111" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="112" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="113" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="114" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="115" /><span></span>
+                    <span class-"sheet-divide">&nbsp;</span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="116" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="117" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="118" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="119" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="120" /><span></span>
+                    <span class-"sheet-divide">&nbsp;</span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="121" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="122" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="123" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="124" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="125" /><span></span>
+                    <span class-"sheet-divide">&nbsp;</span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="126" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="127" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="128" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="129" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="130" /><span></span>
+                    <span class-"sheet-divide">&nbsp;</span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="131" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="132" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="133" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="134" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="135" /><span></span>
+                    <span class="divide">➞</span>
+                    <span>Level 7</span>
+                    <br />
+                    
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="136" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="137" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="138" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="139" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="140" /><span></span>
+                    <span class-"sheet-divide">&nbsp;</span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="141" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="142" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="143" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="144" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="145" /><span></span>
+                    <span class-"sheet-divide">&nbsp;</span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="146" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="147" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="148" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="149" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="150" /><span></span>
+                    <span class-"sheet-divide">&nbsp;</span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="151" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="152" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="153" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="154" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="155" /><span></span>
+                    <span class-"sheet-divide">&nbsp;</span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="156" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="157" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="158" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="159" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="160" /><span></span>
+                    <span class-"sheet-divide">&nbsp;</span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="161" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="162" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="163" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="164" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="165" /><span></span>
+                    <span class-"sheet-divide">&nbsp;</span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="166" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="167" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="168" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="169" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="170" /><span></span>
+                    <span class-"sheet-divide">&nbsp;</span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="171" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="172" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="173" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="174" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="175" /><span></span>
+                    <span class="divide">➞</span>
+                    <span>Level 8</span>
+                    <br />
+                    
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="176" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="177" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="178" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="179" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="180" /><span></span>
+                    <span class-"sheet-divide">&nbsp;</span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="181" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="182" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="183" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="184" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="185" /><span></span>
+                    <span class-"sheet-divide">&nbsp;</span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="186" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="187" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="188" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="189" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="190" /><span></span>
+                    <span class-"sheet-divide">&nbsp;</span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="191" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="192" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="193" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="194" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="195" /><span></span>
+                    <span class-"sheet-divide">&nbsp;</span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="196" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="197" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="198" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="199" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="200" /><span></span>
+                    <span class-"sheet-divide">&nbsp;</span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="201" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="202" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="203" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="204" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="205" /><span></span>
+                    <span class-"sheet-divide">&nbsp;</span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="206" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="207" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="208" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="209" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="210" /><span></span>
+                    <span class-"sheet-divide">&nbsp;</span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="211" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="212" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="213" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="214" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="215" /><span></span>
+                    <span class-"sheet-divide">&nbsp;</span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="216" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="217" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="218" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="219" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="220" /><span></span>
+                    <span class="divide">➞</span>
+                    <span>Level 9</span>
+                    <br />
+                    
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="221" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="222" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="223" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="224" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="225" /><span></span>
+                    <span class-"sheet-divide">&nbsp;</span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="226" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="227" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="228" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="229" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="230" /><span></span>
+                    <span class-"sheet-divide">&nbsp;</span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="231" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="232" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="233" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="234" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="235" /><span></span>
+                    <span class-"sheet-divide">&nbsp;</span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="236" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="237" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="238" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="239" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="240" /><span></span>
+                    <span class-"sheet-divide">&nbsp;</span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="241" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="242" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="243" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="244" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="245" /><span></span>
+                    <span class-"sheet-divide">&nbsp;</span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="246" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="247" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="248" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="249" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="250" /><span></span>
+                    <span class-"sheet-divide">&nbsp;</span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="251" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="252" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="253" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="254" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="255" /><span></span>
+                    <span class-"sheet-divide">&nbsp;</span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="256" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="257" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="258" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="259" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="260" /><span></span>
+                    <span class-"sheet-divide">&nbsp;</span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="261" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="262" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="263" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="264" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="265" /><span></span>
+                    <span class-"sheet-divide">&nbsp;</span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="266" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="267" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="268" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="269" /><span></span>
+                    <input type="radio" class="sheet-normal" name="attr_xp" value="270" /><span></span>
+                    <span class="divide">➞</span>
+                    <span>Level 10</span>
+                </div>
+                <hr />
+                <div class="sheet-row">
+                    <div>
+                        <span>To mark XP as an individual...</span>
+                        <ul>
+                            <li><input type="text" name="attr_ClassXpKey" placeholder="how does your class earn XP" /></li>
+                            <li>Act according to your traits.</li>
+                            <li>Achieve your alignment goal.</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <span>To mark XP as a group...</span>
+                        <ul>
+                            <li>Discover something new about the world.</li>
+                            <li>Overcome a difficult obstacle.</li>
+                            <li>Acquire some memorable booty.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sheet-col sheet-attributes">
+            <div class="sheet-col sheet-pad">
+                <span class="sheet-h2">Name</span>
+                <input type="text" name="attr_character_name" />
+            </div>
+            <div class="sheet-row sheet-pad">
+                <div class="sheet-col sheet-center">
+                    <span class="sheet-h2">Armor</span>
+                    <div class="sheet-shield">
+                        <input type="number" name="attr_armor" value="0" />
+                    </div>
+                </div>
+                <div class="sheet-col sheet-center">
+                    <span class="sheet-h2">Hit Die</span>
+                    <div class="sheet-hit-die-container">
+                        <input type="radio" name="attr_class" value="Magic User" class="sheet-hit-die-selector sheet-d4" />
+                        <input type="radio" name="attr_class" value="Fighter" class="sheet-hit-die-selector sheet-d10" />
+                        <input type="radio" name="attr_class" value="Cleric" class="sheet-hit-die-selector sheet-d8" checked="checked" />
+                        <input type="radio" name="attr_class" value="Thief" class="sheet-hit-die-selector sheet-d6" />
+                        <div class="sheet-d4"></div>
+                        <div class="sheet-d6"></div>
+                        <div class="sheet-d8"></div>
+                        <div class="sheet-d10"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="sheet-col sheet-center">
+                <span class="sheet-h2">Hit Points (HP)</span>
+                <div class="sheet-row">
+                    <div class="sheet-col sheet-center">
+                        <input type="number" name="attr_hp_max" value="0" />
+                        <span>max</span>
+                    </div>
+                    <div class="sheet-connect"></div>
+                    <div class="sheet-col sheet-center">
+                        <input type="number" name="attr_hp" value="0" />
+                        <span>current</span>
+                    </div>
+                </div>
+            </div>
+            <div class="sheet-col sheet-pad">
+                <div class="sheet-ability-title">
+                    <span class="sheet-attr-label sheet-h2">Strength</span>
+                    <div class="sheet-attr-marks">
+                        <input type="radio" class="sheet-normal sheet-zero" name="attr_mark_str" value="0" checked="checked" /><span></span>
+                        <input type="radio" class="sheet-normal" name="attr_mark_str" value="1" /><span></span>
+                        <input type="radio" class="sheet-normal" name="attr_mark_str" value="2" /><span></span>
+                        <input type="radio" class="sheet-normal" name="attr_mark_str" value="3" /><span></span>
+                        <input type="radio" class="sheet-normal" name="attr_mark_str" value="4" /><span></span>
+                        <input type="radio" class="sheet-normal" name="attr_mark_str" value="5" /><span></span>
+                    </div>
+                </div>
+                <div class="sheet-row sheet-start">
+                    <div class="sheet-col sheet-center">
+                        <input type="number" name="attr_strength_max" value="10" />
+                        <span>max</span>
+                    </div>
+                    <div class="sheet-connect"></div>
+                    <div class="sheet-col sheet-center">
+                        <input type="number" name="attr_strength" value="10" />
+                        <span>current</span>
+                    </div>
+                    <div class="sheet-connect"></div>
+                    <div class="sheet-col sheet-center">
+                        <span name="attr_STR" class="sheet-ability-mod">0</span>
+                        <span>mod</span>
+                    </div>
+                    <button name="roll_STR" type="roll" value="/me rolls + STR: [[2d6 + @{STR}]]" />
+                </div>
+                <div class="sheet-ability-title">
+                    <span class="sheet-attr-label sheet-h2">Constitution</span>
+                    <div class="sheet-attr-marks">
+                        <input type="radio" class="sheet-normal sheet-zero" name="attr_mark_con" value="0" checked="checked" /><span></span>
+                        <input type="radio" class="sheet-normal" name="attr_mark_con" value="1" /><span></span>
+                        <input type="radio" class="sheet-normal" name="attr_mark_con" value="2" /><span></span>
+                        <input type="radio" class="sheet-normal" name="attr_mark_con" value="3" /><span></span>
+                        <input type="radio" class="sheet-normal" name="attr_mark_con" value="4" /><span></span>
+                        <input type="radio" class="sheet-normal" name="attr_mark_con" value="5" /><span></span>
+                    </div>
+                </div>
+                <div class="sheet-row sheet-start">
+                    <div class="sheet-col sheet-center">
+                        <input type="number" name="attr_constitution_max" value="10" />
+                        <span>max</span>
+                    </div>
+                    <div class="sheet-connect"></div>
+                    <div class="sheet-col sheet-center">
+                        <input type="number" name="attr_constitution" value="10" />
+                        <span>current</span>
+                    </div>
+                    <div class="sheet-connect"></div>
+                    <div class="sheet-col sheet-center">
+                        <span name="attr_CON" class="sheet-ability-mod">0</span>
+                        <span>mod</span>
+                    </div>
+                    <button name="roll_CON" type="roll" value="/me rolls + CON: [[2d6 + @{CON}]]" />
+                </div>
+                <div class="sheet-ability-title">
+                    <span class="sheet-attr-label sheet-h2">Dexterity</span>
+                    <div class="sheet-attr-marks">
+                        <input type="radio" class="sheet-normal sheet-zero" name="attr_mark_dex" value="0" checked="checked" /><span></span>
+                        <input type="radio" class="sheet-normal" name="attr_mark_dex" value="1" /><span></span>
+                        <input type="radio" class="sheet-normal" name="attr_mark_dex" value="2" /><span></span>
+                        <input type="radio" class="sheet-normal" name="attr_mark_dex" value="3" /><span></span>
+                        <input type="radio" class="sheet-normal" name="attr_mark_dex" value="4" /><span></span>
+                        <input type="radio" class="sheet-normal" name="attr_mark_dex" value="5" /><span></span>
+                    </div>
+                </div>
+                <div class="sheet-row sheet-start">
+                    <div class="sheet-col sheet-center">
+                        <input type="number" name="attr_dexterity_max" value="10" />
+                        <span>max</span>
+                    </div>
+                    <div class="sheet-connect"></div>
+                    <div class="sheet-col sheet-center">
+                        <input type="number" name="attr_dexterity" value="10" />
+                        <span>current</span>
+                    </div>
+                    <div class="sheet-connect"></div>
+                    <div class="sheet-col sheet-center">
+                        <span name="attr_DEX" class="sheet-ability-mod">0</span>
+                        <span>mod</span>
+                    </div>
+                    <button name="roll_DEX" type="roll" value="/me rolls + DEX: [[2d6 + @{DEX}]]" />
+                </div>
+                <div class="sheet-ability-title">
+                    <span class="sheet-attr-label sheet-h2">Intelligence</span>
+                    <div class="sheet-attr-marks">
+                        <input type="radio" class="sheet-normal sheet-zero" name="attr_mark_int" value="0" checked="checked" /><span></span>
+                        <input type="radio" class="sheet-normal" name="attr_mark_int" value="1" /><span></span>
+                        <input type="radio" class="sheet-normal" name="attr_mark_int" value="2" /><span></span>
+                        <input type="radio" class="sheet-normal" name="attr_mark_int" value="3" /><span></span>
+                        <input type="radio" class="sheet-normal" name="attr_mark_int" value="4" /><span></span>
+                        <input type="radio" class="sheet-normal" name="attr_mark_int" value="5" /><span></span>
+                    </div>
+                </div>
+                <div class="sheet-row sheet-start">
+                    <div class="sheet-col sheet-center">
+                        <input type="number" name="attr_intelligence_max" value="10" />
+                        <span>max</span>
+                    </div>
+                    <div class="sheet-connect"></div>
+                    <div class="sheet-col sheet-center">
+                        <input type="number" name="attr_intelligence" value="10" />
+                        <span>current</span>
+                    </div>
+                    <div class="sheet-connect"></div>
+                    <div class="sheet-col sheet-center">
+                        <span name="attr_INT" class="sheet-ability-mod">0</span>
+                        <span>mod</span>
+                    </div>
+                    <button name="roll_INT" type="roll" value="/me rolls + INT: [[2d6 + @{INT}]]" />
+                </div>
+                <div class="sheet-ability-title">
+                    <span class="sheet-attr-label sheet-h2">Wisdom</span>
+                    <div class="sheet-attr-marks">
+                        <input type="radio" class="sheet-normal sheet-zero" name="attr_mark_wis" value="0" checked="checked" /><span></span>
+                        <input type="radio" class="sheet-normal" name="attr_mark_wis" value="1" /><span></span>
+                        <input type="radio" class="sheet-normal" name="attr_mark_wis" value="2" /><span></span>
+                        <input type="radio" class="sheet-normal" name="attr_mark_wis" value="3" /><span></span>
+                        <input type="radio" class="sheet-normal" name="attr_mark_wis" value="4" /><span></span>
+                        <input type="radio" class="sheet-normal" name="attr_mark_wis" value="5" /><span></span>
+                    </div>
+                </div>
+                <div class="sheet-row sheet-start">
+                    <div class="sheet-col sheet-center">
+                        <input type="number" name="attr_wisdom_max" value="10" />
+                        <span>max</span>
+                    </div>
+                    <div class="sheet-connect"></div>
+                    <div class="sheet-col sheet-center">
+                        <input type="number" name="attr_wisdom" value="10" />
+                        <span>current</span>
+                    </div>
+                    <div class="sheet-connect"></div>
+                    <div class="sheet-col sheet-center">
+                        <span name="attr_WIS" class="sheet-ability-mod">0</span>
+                        <span>mod</span>
+                    </div>
+                    <button name="roll_WIS" type="roll" value="/me rolls + WIS: [[2d6 + @{WIS}]]" />
+                </div>
+                <div class="sheet-ability-title">
+                    <span class="sheet-attr-label sheet-h2">Charisma</span>
+                    <div class="sheet-attr-marks">
+                        <input type="radio" class="sheet-normal sheet-zero" name="attr_mark_cha" value="0" checked="checked" /><span></span>
+                        <input type="radio" class="sheet-normal" name="attr_mark_cha" value="1" /><span></span>
+                        <input type="radio" class="sheet-normal" name="attr_mark_cha" value="2" /><span></span>
+                        <input type="radio" class="sheet-normal" name="attr_mark_cha" value="3" /><span></span>
+                        <input type="radio" class="sheet-normal" name="attr_mark_cha" value="4" /><span></span>
+                        <input type="radio" class="sheet-normal" name="attr_mark_cha" value="5" /><span></span>
+                    </div>
+                </div>
+                <div class="sheet-row sheet-start">
+                    <div class="sheet-col sheet-center">
+                        <input type="number" name="attr_charisma_max" value="10" />
+                        <span>max</span>
+                    </div>
+                    <div class="sheet-connect"></div>
+                    <div class="sheet-col sheet-center">
+                        <input type="number" name="attr_charisma" value="10" />
+                        <span>current</span>
+                    </div>
+                    <div class="sheet-connect"></div>
+                    <div class="sheet-col sheet-center">
+                        <span name="attr_CHA" class="sheet-ability-mod">0</span>
+                        <span>mod</span>
+                    </div>
+                    <button name="roll_CHA" type="roll" value="/me rolls + CHA: [[2d6 + @{CHA}]]" />
+                </div>
+                <span class="sheet-attr-label sheet-h2">Luck</span>
+                <div class="sheet-row sheet-start">
+                    <div class="sheet-col sheet-center">
+                        <input type="number" name="attr_luck_max" value="10" />
+                        <span>max</span>
+                    </div>
+                    <div class="sheet-connect"></div>
+                    <div class="sheet-col sheet-center">
+                        <input type="number" name="attr_luck" value="10" />
+                        <span>current</span>
+                    </div>
+                    <div class="sheet-connect"></div>
+                    <div class="sheet-col sheet-center">
+                        <span name="attr_LUC" class="sheet-ability-mod">0</span>
+                        <span>mod</span>
+                    </div>
+                    <button name="roll_LUC" type="roll" value="/me rolls + LUC: [[2d6 + @{LUC}]]" />
+                </div>
+            </div>
+            <div class="sheet-col sheet-pad">
+                <span class="sheet-h2">Bonds</span>
+                <fieldset class="repeating_bonds">
+                    <input type="text" name="attr_bond_name" placeholder="character name" />
+                    <input type="number" name="attr_bond_level" />
+                </fieldset>
+            </div>
+        </div>
+    </div>
+    <hr />
+    <div>
+        <span class="sheet-h2" style="margin-left: 8px">Page:</span>
+        <input type="radio" class="sheet-page-selector sheet-cleric-selector" name="attr_page" value="Cleric" checked="checked">
+        <span>Cleric</span>
+        <input type="radio" class="sheet-page-selector sheet-fighter-selector" name="attr_page" value="Fighter">
+        <span>Fighter</span>
+        <input type="radio" class="sheet-page-selector sheet-magic-user-selector" name="attr_page" value="Magic User">
+        <span>Magic User</span>
+        <input type="radio" class="sheet-page-selector sheet-thief-selector" name="attr_page" value="Thief">
+        <span>Thief</span>
+        <hr />
+        <div class="sheet-class-page sheet-cleric">
+            <div class="sheet-row">
+                <div class="sheet-col">
+                    <div class="sheet-row">
+                        <div class="sheet-col">
+                            <span class="h1">Cleric Moves</span>
+                            <span>You start with all of these.</span>
+                        </div>
+                        <div class="sheet-col sheet-center">
+                            <div class="sheet-row sheet-end">
+                                <div class="sheet-col sheet-center">
+                                    <input name="attr_favor_max" type="number" disabled="" value="@{level} + @{WIS}" />
+                                    <span>max</span>
+                                </div>
+                                <div class="sheet-connect"></div>
+                                <div class="sheet-col sheet-center">
+                                    <input name="attr_favor" type="number" value="" />
+                                    <span>current</span>
+                                </div>
+                            </div>
+                            <span class="sheet-h2">Favor</span>
+                        </div>
+                    </div>
+                    <span class="sheet-h2">Disciple</span>
+                    <p>
+                        You are a vessel of divine will, charged with promoting and
+                        defending your faith. Your deity has the same alignment as you, 
+                        and 2 linked domains - those parts of existence over which they 
+                        hold sway (darkness & war, love & the moon, etc.).
+                        <strong><em>Name your deity and write down their domains.</em></strong> 
+                        Then, write 1 tenet by which the faithful strive to abide 
+                        ("Always help those in need," "Destroy enemies of the faith," etc.).
+                    </p>
+                    <p>
+                        <strong>Favor</strong> represents your current standing in the 
+                        eyes of your deity. The maximum favor you may hold at any time 
+                        is equal to your current level +WIS (minimum of 1). You start 
+                        play with maximum favor.
+                    </p>
+                    <p>
+                        When you <strong><em>make any move roll that falls within the 
+                        domain of your deity</em></strong>, you may spend favor before 
+                        you roll the dice to increase the result by +1 for each point of 
+                        favor spent.
+                    </p>
+                    <p class="sheet-row sheet-center">
+                        <strong class="sheet-fill-in-prompt">Deity:</strong>
+                        <input class="sheet-fill-in-blank" type="text" name="attr_deity" />
+                        <strong class="sheet-fill-in-prompt">Domains:</strong>
+                        <input class="sheet-fill-in-blank" type="text" name="attr_domains" />
+                    </p>
+                    <p class="sheet-row sheet-center">
+                        <strong class="sheet-fill-in-prompt">Tenet: </strong>
+                        <input class="sheet-fill-in-blank" type="text" name="attr_tenet" />
+                    </p>
+                    <span class="sheet-h2">Pray</span>
+                    <p>
+                        When you <strong><em>take the necessary time to commune with your deity</em></strong>, 
+                        say what that looks like and roll +WIS, taking +1 if you bear 
+                        your holy symbol, and +1 if you occupy a place dedicated to 
+                        your faith: on a <strong>10+</strong>, your prayers are heard—restore your favor 
+                        to maximum; on a <strong>7-9</strong>, gain 1 favor. You may only Pray once per day.
+                    </p>
+                    <span class="sheet-h2">Convert</span>
+                    <p>
+                        When you <strong>convince a nonbeliever to join your faith</strong>, 
+                        gain 1 XP or 2 favor (your choice).
+                    </p>
+                    <span class="sheet-h2">Lay on Hands</span>
+                    <p>
+                        When you <strong><em>call upon the power of your deity to heal a living thing with which you are in skin-to-skin contact</em></strong>, roll +WIS: <strong>on a 10+</strong>, they heal points equal to double your current favor; <strong>on a 7-9</strong>, you may burn 1 Constitution to heal points equal to your current favor. Points healed must be ability or hit points, your choice. You may not Lay Hands on a creature of opposite Alignment (Good opposes Evil; Lawful opposes Chaotic).
+                    </p>
+                    <span class="sheet-h2">Invoke</span>
+                    <p>
+                        When you <strong><em>call upon your deity to manifest their powerin a particular way</em></strong>, say what you want to have happen and how it falls within at least one of your deity’s domains. The Judge will assign your request <strong>hubris</strong> from 0 (rote) to 6 (miraculous). Then, roll -hubris, +1 if you bear your holy symbol: <strong>on a 10+</strong>, your request is granted with duration 3, and may be made permanent if you perma-burn 1 ability point per point of hubris; <strong>on a 7-9</strong>, your request is granted with duration 1, but your deity demands proof of devotion - the Judge chooses 1 from the list below.
+                    </p>
+                    <ul>
+                        <li><strong>Sacrifice:</strong> take -1 ongoing to Pray until you destroy or tithe something of the Judge’s choosing (silver, blood, something of symbolic signi cance to your faith, etc.)</li>
+                        <li><strong>Exemplify:</strong> take -1 ongoing to Invoke until you satisfy your tenet</li>
+                        <li><strong>Atone:</strong> take -1 ongoing to Invoke until you gain at least 1 favor</li>
+                        <li><strong>Evangelize:</strong> take -1 ongoing to Invoke until you Convert a nonbeliever</li>
+                        <li><strong>Endure:</strong> burn 1d4 points of an ability of the Judge’s choice</li>
+                        <li><strong>Redeem:</strong> you may not Invoke again until you complete a trial of the Judge’s choosing</li>
+                        <li><strong>Suffer:</strong> perma-burn 1 point of an ability of the Judge’s choice</li>
+                    </ul>
+                </div>
+                <div class="sheet-col">
+                    <div>
+                        <span class="sheet-h1">Advanced Moves</span>
+                        <span>May be chosen when you <strong><em>level up</em></strong>.</span>
+                    </div>
+                    <hr />
+                    <div>
+                        <input type="checkbox" name="attr_cleric_move_avatar" />
+                        <span class="sheet-h2">Avatar</span>
+                    </div>
+                    <p>
+                        When you <strong><em>are overtaken by the divine spirit in pursuit of a particular goal</em></strong>, roll +WIS: <strong>on a 10+</strong>, choose 1 from the list below; <strong>on a 7-9</strong>, choose 2; on a 6-, mark XP, and all 3 apply. While you are driven by divine will, you take +1 ongoing and roll +WIS in place of all other ability modifiers.
+                        <ul>
+                            <li>When the spirit leaves you, burn 1d6 Strength, 1d6 Constitution, and 1d6 Dexterity.</li>
+                            <li>As soon as you have 0 favor, the spirit leaves you and the Judge chooses 1 proof of devotion from the Invoke list.</li>
+                            <li>While the spirit is in you, you must adhere to your deity’s agenda at all costs.</li>
+                        </ul>
+                    </p>
+                    <p>
+                        When you <strong><em>meet your goal or become incapacitated</em></strong>, whichever comes first, the divine spirit leaves you.
+                    </p>
+                    <div>
+                        <input type="checkbox" name="attr_cleric_move_crusader" />
+                        <span class="sheet-h2">Crusader</span>
+                    </div>
+                    <span>[min. STR +1 and level 5; must be <em>Good</em>, <em>Lawful</em>, <em>Chaotic</em>, or <em>Evil</em>]</span>
+                    <p>
+                        When you <strong><em>have demonstrated your devotion by personally slaying many enemies of your faith</em></strong>, you may begin multiclassing as a Fighter, and add Fighter Moves to this playbook.
+                    </p>
+                    <div>
+                        <input type="checkbox" name="attr_cleric_move_defenderofthefaith" />
+                        <span class="sheet-h2">Defender of the Faith</span>
+                    </div>
+                    <p>
+                        When you <strong><em>are all that stands between something of great value to your deity and a threat to its existence</em></strong>, take +1 ongoing, for as long as the threat persists. In addition, when you suffer damage from that threat, you may spend favor to ignore some or all of it, at cost of 1 favor per 1 point of damage.
+                    </p>
+                    <div>
+                        <input type="checkbox" name="attr_cleric_move_inspire" />
+                        <span class="sheet-h2">Inspire</span>
+                    </div>
+                    <p>
+                        When you <strong><em>stand fast before a clear threat in the name of your deity</em></strong>, roll +CHA: <strong>on a 10+</strong>, all allies who bear witness take +1 ongoing in the face of that threat; <strong>on a 7-9</strong>, they take +1 forward against it.
+                    </p>
+                    <div>
+                        <input type="checkbox" name="attr_cleric_move_martyr" />
+                        <span class="sheet-h2">Martyr</span>
+                    </div>
+                    <p>
+                        When you <strong><em>Bite the Dust in service to your deity</em></strong>, restore your favor to its current maximum, and automatically Inspire all allies who witnessed your fall as if you rolled a 10+. Then, if you die and choose to Rise to the Occasion by becoming a follower who witnessed your death, that follower converts to your faith on the spot and starts with bonus XP equal to your favor.
+                    </p>
+                    <div>
+                        <input type="checkbox" name="attr_cleric_move_missionary" />
+                        <span class="sheet-h2">Missionary</span>
+                    </div>
+                    <p>
+                        When you <strong><em>spend a day spreading the teachings of your faith to the locals</em></strong>, gain 1 favor and take +1 forward to Convert or Recruit.
+                    </p>
+                    <div>
+                        <input type="checkbox" name="attr_cleric_move_prayforguidance" />
+                        <span class="sheet-h2">Pray for Guidance</span>
+                    </div>
+                    <p>
+                        When you <strong><em>Pray</em></strong>, <strong>on a 7+</strong> you may ask your deity a question, and your deity will answer (by way of the Judge).
+                    </p>
+                    <div>
+                        <input type="checkbox" name="attr_cleric_move_smite" />
+                        <span class="sheet-h2">Smite</span>
+                    </div>
+                    <p>
+                        When you <strong><em>deal damage to an enemy of your faith</em></strong>, you may spend favor before you roll damage to increase the result by +1 for each point of favor spent.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="sheet-class-page sheet-fighter">
+            <div class="sheet-row">
+                <div class="sheet-col">
+                    <div class="sheet-row">
+                        <div class="sheet-col">
+                            <span class="h1">Fighter Moves</span>
+                            <span>You start with all of these.</span>
+                        </div>
+                        <div class="sheet-col sheet-center">
+                            <div class="sheet-row sheet-end">
+                                <div class="sheet-col sheet-center">
+                                    <input name="attr_mettle_max" type="number" value="@{level} + 1" />
+                                    <span>max</span>
+                                </div>
+                                <div class="sheet-connect"></div>
+                                <div class="sheet-col sheet-center">
+                                    <input name="attr_mettle" type="number" value="@{level} + 1" />
+                                    <span>current</span>
+                                </div>
+                            </div>
+                            <span class="sheet-h2">Mettle</span>
+                        </div>
+                    </div>
+                    <div class="sheet-row sheet-start">
+                        <div class="sheet-radio-track">
+                            <input type="radio" class="sheet-normal" name="attr_mark_favorweapon" value="1" checked="checked" /><span></span>
+                            <input type="radio" class="sheet-normal" name="attr_mark_favorweapon" value="2" /><span></span>
+                            <input type="radio" class="sheet-normal" name="attr_mark_favorweapon" value="3" /><span></span>
+                        </div>
+                        <div class="sheet-divide"></div>
+                        <span class="sheet-h2">Favor Weapon</span>
+                    </div>
+                    <p>
+                        You’ve spent years training with a particular instrument of the warrior’s art, until it has become an extension of your being. Each time you take this move, choose 1 specific type of weapon (longsword, spear, great axe, throwing knife, longbow, etc.) with which you are intimately familiar, and write it below. These are your <strong>favored weapons</strong>.
+                    </p>
+                    <p class="sheet-row">
+                        <span class="sheet-fill-in-prompt">&#10022;</span>
+                        <input type="text" name="attr_favored_weapon_1" class="sheet-fill-in-blank" />
+                        <span class="sheet-fill-in-prompt">&#10022;</span>
+                        <input type="text" name="attr_favored_weapon_2" class="sheet-fill-in-blank" />
+                        <span class="sheet-fill-in-prompt">&#10022;</span>
+                        <input type="text" name="attr_favored_weapon_3" class="sheet-fill-in-blank" />
+                    </p>
+                    <p>
+                        <strong>Mettle</strong> represents the focus and discipline required to face down your foes in mortal combat. Your maximum mettle is equal to your current level +1. When you <strong><em>take a moment to catch your breath and focus your thoughts</em></strong>, reset your mettle to its maximum.
+                    </p>
+                    <p>
+                        When you <strong><em>make any move with a favored weapon</em></strong>, before you roll you may spend 1 mettle to take +1 to that roll.                        
+                    </p>
+                    <span class="sheet-h2">Revel in Battle</span>
+                    <p>
+                        When you <strong><em>Fight or Shoot or Throw and roll a 10+</em></strong>, you may spend mettle to add 1 or more of the following e ects to the move result, at a cost of 1 mettle per effect:
+                    </p>
+                    <ul>
+                        <li><strong>Strike hard:</strong> increase damage dealt by +STR in this instance.</li>
+                        <li><strong>Strike true:</strong> ignore +DEX worth of your target's armor in this instance.</li>
+                        <li><strong>Gain momentum:</strong> take +1 forward against your next target.</li>
+                        <li><strong>Coordinate:</strong> grant an ally of your choosing +1 forward against your target.</li>
+                        <li><strong>Handicap:</strong> inflict a condition - stunned, hindered, etc. - of your choice on your foe (subject to Judge approval), with a Duration of +INT (minimum 1).</li>
+                    </ul>
+                    <p>
+                        When you <strong><em>Fight or Shoot or Throw and roll a 12+</em></strong>, you regain 1 mettle in addition to all other effects.
+                    </p>
+                    <span class="sheet-h2">Bend Bars, Lift Gates</span>
+                    <p>
+                        When you <strong><em>use pure strength to destroy or remove an inanimate obstacle</em></strong>, burn 1 Strength and roll +STR: <strong>on a 10+</strong>, choose 3 from the list below; <strong>on a 7-9</strong>, choose 2; on a 6-, mark XP and choose 1.
+                    </p>
+                    <ul>
+                        <li>It doesn’t take a long time.</li>
+                        <li>Nothing of value is damaged in the process.</li>
+                        <li>You don’t attract unwanted attention.</li>
+                        <li>You can fix the thing again without much effort.</li>
+                    </ul>
+                    <span class="sheet-h2">No Guts, No Glory</span>
+                    <p>
+                        When you <strong><em>charge into battle against overwhelming odds</em></strong>, burn 1 Wisdom and roll +WIS: <strong>on a 10+</strong>, choose 3 from the list below; <strong>on a 7-9</strong>, choose 2; on a 6-, mark XP and choose 1.                        
+                    </p>
+                    <ul>
+                        <li>You have +1 Armor until you’re incapacitated.</li>
+                        <li>The opposition is interested only in you until you’re incapacitated, or until a greater threat presents itself (whichever comes first).</li>
+                        <li>You take +1 ongoing until you su er damage.</li>
+                        <li>All allies witness to your courage/foolhardiness take +1 forward.</li>
+                    </ul>
+                </div>
+                <div class="sheet-col">
+                    <span class="sheet-h1">Advanced Moves</span>
+                    <span>Maybe chosen when you <strong><em>level up.</em></strong></span>
+                    <hr />
+                    <div class="sheet-row sheet-start">
+                        <input type="checkbox" class="sheet-row-field" name="attr_fighter_move_deflectblows" />
+                        <span class="sheet-h2">Deflect Blows</span>
+                    </div>
+                    <p>
+                        When you <strong><em>wield a favored or mastered melee weapon and roll a 7-9 to Fight</em></strong>, instead of dealing your damage you may spend 1 mettle to subtract your damage roll from your foe’s. You suffer any remaining damage, and your foe suffers no damage.
+                    </p>
+                    <div class="sheet-row sheet-start">
+                        <input type="checkbox" class="sheet-row-field" name="attr_fighter_move_intimidate" />
+                        <span class="sheet-h2">Intimidate</span>
+                    </div>
+                    <p>
+                        When you <strong><em>Negotiate using threat of violence</em></strong>, roll +STR instead of +CHA.
+                    </p>
+                    <div class="sheet-row sheet-start">
+                        <input type="checkbox" class="sheet-row-field" name="attr_fighter_move_masterweapon" />
+                        <span class="sheet-h2">Master Weapon</span>
+                    </div>
+                    <p>
+                        When you take this move, choose one of your favored weapons to master and circle it.
+                    </p>
+                    <p>
+                        When you <strong><em>make any move with your mastered weapon</em></strong>, before you roll you may spend 2 mettle to take +2 to that roll.
+                    </p>
+                    <div class="sheet-row sheet-start">
+                        <input type="checkbox" class="sheet-row-field" name="attr_fighter_move_myrmidon" />
+                        <span class="sheet-h2">Myrmidon</span>
+                    </div>
+                    <p>
+                        When you <strong><em>follow someone else’s orders to commit violence</em></strong>, you may burn 1 Wisdom to take +1 ongoing while acting on those orders.
+                    </p>
+                    <div class="sheet-row sheet-start">
+                        <input type="checkbox" class="sheet-row-field" name="attr_fighter_move_scoundrel" />
+                        <span class="sheet-h2">Scoundrel</span>
+                    </div>
+                    <div>
+                        [min. DEX +1 and level 5; must be <em>Neutral</em>, <em>Chaotic</em>, or <em>Evil</em>]
+                    </div>
+                    <p>
+                        If you <strong><em>have committed a duplicitous act knowing that it would harm an innocent person</em></strong>, you may begin multiclassing as a thief, and add  Thief Moves to this playbook.
+                    </p>
+                    <div class="sheet-row sheet-start">
+                        <input type="checkbox" class="sheet-row-field" name="attr_fighter_move_secondskin" />
+                        <span class="sheet-h2">Second Skin</span>
+                    </div>
+                    <p>
+                        When you <strong><em>wear armor</em></strong>, you have +1 armor and ignore the armor’s awkward tag (if any).
+                    </p>
+                    <div class="sheet-row sheet-start">
+                        <input type="checkbox" class="sheet-row-field" name="attr_fighter_move_shieldbearer" />
+                        <span class="sheet-h2">Shieldbearer</span>
+                    </div>
+                    <p>
+                        When you <strong><em>use a shield to block damage</em></strong>, you may spend 1 mettle to make your shield worth 1d6 armor for this attack. If damage from this attack exceeds your total armor, you take that excess damage and your shield is destroyed.
+                    </p>
+                    <div class="sheet-row sheet-start">
+                        <input type="checkbox" class="sheet-row-field" name="attr_fighter_move_shoutorders" />
+                        <span class="sheet-h2">Shout Orders</span>
+                    </div>
+                    <p>
+                        When you <strong><em>bark commands in the heat of battle</em></strong>, roll +CHA: <strong>on a 10+</strong>, all allies take +1 ongoing to act on those orders until the battle is over or you give new orders, whichever comes first; <strong>on a 7-9</strong>, all allies who obey take +1 forward.
+                    </p>
+                    <div class="sheet-row sheet-start">
+                        <input type="checkbox" class="sheet-row-field" name="attr_fighter_move_smash" />
+                        <span class="sheet-h2">Smash</span>
+                    </div>
+                    <p>
+                        When you <strong><em>Revel in Battle and strike hard</em></strong>, you may burn 1 Strength to permanently reduce your target’s armor by 1d4, in addition to the usual effect.
+                    </p>
+                    <div class="sheet-row sheet-start">
+                        <input type="checkbox" class="sheet-row-field" name="attr_fighter_move_templar" />
+                        <span class="sheet-h2">Templar</span>
+                    </div>
+                    <div>
+                        [min. CHA +1 and level 5; must be <em>Good</em>, <em>Lawful</em>, or <em>Evil</em>]
+                    </div>
+                    <p>
+                        If you <strong><em>have sworn to devote your life to a specific deity</em></strong>, you may begin multiclassing as a Cleric, and add Cleric Moves to this playbook.
+                    </p>
+                    <div class="sheet-row sheet-start">
+                        <input type="checkbox" class="sheet-row-field" name="attr_fighter_move_tireless" />
+                        <span class="sheet-h2">Tireless</span>
+                    </div>
+                    <p>
+                        When you <strong><em>heal Strength or Constitution</em></strong>, you heal twice as much as normal.
+                    </p>
+                    <div class="sheet-row sheet-start">
+                        <input type="checkbox" class="sheet-row-field" name="attr_fighter_move_vengefulsoul" />
+                        <span class="sheet-h2">Vengelful Soul</span>
+                    </div>
+                    <p>
+                        When you <strong><em>suffer physical or emotional harm</em></strong>, you may burn 1 Wisdom to take +1 ongoing against the source of that harm until it is destroyed.
+                    </p>
+                    <div class="sheet-row sheet-start">
+                        <input type="checkbox" class="sheet-row-field" name="attr_fighter_move_veteran" />
+                        <span class="sheet-h2">Veteran</span>
+                    </div>
+                    <p>
+                        Your maximim mettle is equal to your current level +2.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="sheet-class-page sheet-magic-user">
+            <div class="sheet-row">
+                <div class="sheet-col">
+                    <div class="sheet-row">
+                        <div class="sheet-col">
+                            <span class="sheet-h1">Magic User Moves</span>
+                            <span>You start with all of these.</span>
+                        </div>
+                        <div class="sheet-col sheet-center">
+                            <div class="sheet-row sheet-end">
+                                <div class="sheet-col sheet-center">
+                                    <input name="attr_power_max" type="number" value="@{level} + @{INT}" />
+                                    <span>max</span>
+                                </div>
+                                <div class="sheet-connect"></div>
+                                <div class="sheet-col sheet-center">
+                                    <input name="attr_power" type="number" value="@{level} + @{INT}" />
+                                    <span>current</span>
+                                </div>
+                            </div>
+                            <span class="sheet-h2">Power</span>
+                        </div>
+                    </div>
+                    <span class="sheet-h2">Spellcaster</span>
+                    <p>
+                        You are a student of the sorcerous arts. You start with 2 spells, memorized and inscribed in your <strong>spellbook</strong>. Roll them up on the Spell Name table.
+                    </p>
+                    <p>
+                        <strong>Power</strong> represents your ability to manipulate arcane energy. Your power is equal to your current level +INT (minimum of 1). Each time you Cast a Spell, you start with full power and must decide how to distribute that power among the four aspects of the spell:
+                    </p>
+                    <p>
+                        <table class="sheet-table">
+                            <thead>
+                                <th class="sheet-table-left">Effect</th>
+                                <th class="sheet-table-left">Range</th>
+                                <th class="sheet-table-left">Area of Effect</th>
+                                <th class="sheet-table-center">Duration</th>
+                                <th class="sheet-table-center">Power Cost</th>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><em>parlor trick</em> (0)</td>
+                                    <td><em>touch</em></td>
+                                    <td><em>self</em></td>
+                                    <td class="sheet-table-center"><em>instant</em></td>
+                                    <td class="sheet-table-center">0</td>
+                                </tr>
+                                <tr>
+                                    <td><em>minor</em> (+1/1d6)</td>
+                                    <td><em>close or reach</em></td>
+                                    <td><em>single target</em></td>
+                                    <td class="sheet-table-center">1</td>
+                                    <td class="sheet-table-center">1</td>
+                                </tr>
+                                <tr>
+                                    <td><em>moderate</em> (+2/2d6)</td>
+                                    <td><em>near</em></td>
+                                    <td><em>several targets</em></td>
+                                    <td class="sheet-table-center">3</td>
+                                    <td class="sheet-table-center">2</td>
+                                </tr>
+                                <tr>
+                                    <td><em>major</em> (+3/3d6)</td>
+                                    <td><em>far</em></td>
+                                    <td><em>small area</em></td>
+                                    <td class="sheet-table-center">5</td>
+                                    <td class="sheet-table-center">3</td>
+                                </tr>
+                                <tr>
+                                    <td><em>spectacular</em> (+4/4d6)</td>
+                                    <td><em>within sight</em></td>
+                                    <td><em>large area</em></td>
+                                    <td class="sheet-table-center">7</td>
+                                    <td class="sheet-table-center">5</td>
+                                </tr>
+                                <tr>
+                                    <td><em>legendary</em> (+5/5d6)</td>
+                                    <td><em>out of sight</em></td>
+                                    <td><em>vast area</em></td>
+                                    <td class="sheet-table-center"><em>permanent</em></td>
+                                    <td class="sheet-table-center">9</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </p>
+                    <p>
+                        The effect column includes both a descriptive tag and suggested numerical modifer or number of dice (i.e., a moderate e ect costs 2 power and might be used to create a +2 to a move roll, +2 armor, or 2d6 worth of damage). But spell effects are not limited to numbers! Use your imagination and work with the Judge to determine a spell’s effect level.
+                    </p>
+                    <span class="sheet-h2">Study Spellbook</span>
+                    <p>
+                        When you <strong>spend a few hours studying your spellbook</strong>, you forget all memorized spells and memorize a number of spells equal to your level +1. Make a note of which those are.
+                    </p>
+                    <fieldset class="repeating_spellbook sheet-spellbook">
+                        <span class="sheet-row sheet-center">
+                            <input type="text" name="attr_spellname" placeholder="name of spell" />
+                            <input type="checkbox" name="attr_memorized" title="memorized?" />
+                        </span>
+                    </fieldset>
+                    <span class="sheet-h2">Inscribe</span>
+                    <p>
+                        When you <strong>spend 1 week of downtime copying a new spell from another source</strong>, add it to your own spellbook.
+                    </p>
+                    <span class="sheet-h2">Cast a Spell</span>
+                    <p>
+                        When you <strong>cast a memorized spell</strong>, say what effect you want to create within the scope of the spell’s name, spend power to define it, and roll +INT, +1 per point of unspent power: <strong>on a 10+</strong>, it does what you want; <strong>on a 9-</strong>, you suffer an arcane accident according to your roll:
+                    </p>
+                    <ol start="9" reversed>
+                        <li><strong>Disturbance!</strong> The spell works as intended, but your casting draws unwanted attention.</li>
+                        <li><strong>Vacuity!</strong> The spell works as intended, but you forget it and may not cast it again until you re-memorize it.</li>
+                        <li><strong>Perplexity!</strong> The spell works as intended, but you burn 1d4 Intelligence.</li>
+                        <li><strong>Misfire!</strong> Mark XP. The spell works, but a ects a target other than the intended target.</li>
+                        <li><strong>Disruption!</strong> Mark XP. The spell fails and you forget it, but arcane forces temporarily warp reality for the worse, in proportion to the spell’s intended effect.</li>
+                        <li><strong>Disaster!</strong> Mark XP. The spell fails and you forget it, but someone or something nearby (which might be you or an ally) suffers a <em>permanent</em> affiction or alteration of the Judge’s choosing, in proportion to the spell’s intended effect.</li>
+                        <li><em>...or less.</em> <strong>Incursion!</strong> Mark XP. The spell fails, you forget it, and some annoying, troublesome, or dangerous arcane force is released into this world. Left unchecked, it will worsen.</li>
+                    </ol>
+                    <p>
+                        All questions raised by the results of your roll are answered by the Judge.
+                    </p>
+                    <p>
+                        When you <strong><em>successfully cast a spell of duration greater than your INT</em></strong>, you suffer -1 ongoing to all rolls until you choose to end the spell, are forced to do so, or its duration runs out.
+                    </p>
+                </div>
+                <div class="sheet-col">
+                    <span class="sheet-h1">Advanced Moves</span>
+                    <span>May be taken when you <strong><em>level up</em></strong>.</span>
+                    <div class="sheet-row sheet-start">
+                        <input type="checkbox" class="sheet-row-field" name="attr_magicuser_move_antiquarian" />
+                        <span class="sheet-h2">Antiquarian</span>
+                    </div>
+                    <p>
+                        When you <strong><em>spend 1 week of downtime Researching a mysterious object</em></strong>, you always succeed as if you rolled a 10+.
+                    </p>
+                    <div class="sheet-row sheet-start">
+                        <input type="checkbox" class="sheet-row-field" name="attr_magicuser_move_enchanter" />
+                        <span class="sheet-h2">Enchanter</span>
+                    </div>
+                    <p>
+                        When you <strong><em>Cast a Spell</em></strong>, the power cost for that spell’s duration is one step lower.
+                    </p>
+                    <div class="sheet-row sheet-start">
+                        <input type="checkbox" class="sheet-row-field" name="attr_magicuser_move_formulate" />
+                        <span class="sheet-h2">Formulate Spell</span>
+                    </div>
+                    <p>
+                        When you <strong><em>spend 1 week of downtime studying arcane lore in order to create your own spell</em></strong>, roll +INT: <strong>on a 10+</strong>, hold 3; <strong>on a 7-9</strong>, hold 2; <strong>on a 6-</strong>, hold 1, mark Intelligence, and the Judge makes a move. Spend your hold to complete the following steps, in order. If you don’t complete all of the steps in 1 week, you may continue your inquiry at a later time.
+                    </p>
+                    <p class="sheet-col">
+                        <span class="sheet-row sheet-start">
+                            <input type="checkbox" class="sheet-row-field" name="attr_magicuser_move_formulate_template" />
+                            <span>Spend 1 hold to roll a spell nametemplate for the spell.</span>
+                        </span>
+                        <span class="sheet-row sheet-start">
+                            <input type="checkbox" class="sheet-row-field" name="attr_magicuser_move_formulate_namespell" />
+                            <span>Spend 1 hold to fill in 1 spell namepart (form, adjective etc.) on your rolled template, using words from spells already inscribed in your spellbook. If you fill in a wizard name, make it your own. You will need to spend more than 1 hold on this step to complete the spell name before moving on to the next step.</span>
+                        </span>
+                        <span class="sheet-row sheet-start">
+                            <input type="checkbox" class="sheet-row-field" name="attr_magicuser_move_formulate_pay" />
+                            <span>Spend 1 hold to pay 50sp perspell namepart (i.e., a spell comprised of [Wizard Name] [Element] [Form] costs 150 silver).</span>
+                        </span>
+                        <span class="sheet-row sheet-start">
+                            <input type="checkbox" class="sheet-row-field" name="attr_magicuser_move_formulate_inscribe" />
+                            <span>Spend 1 hold to <strong>Inscribe</strong> the spell in your spellbook.</span>
+                        </span>
+                    </p>
+                    <p>
+                        When you <strong><em>Cast a Spell you formulated yourself</em></strong>, take +1.
+                    </p>
+                    <div class="sheet-row sheet-start">
+                        <input type="checkbox" class="sheet-row-field" name="attr_magicuser_move_prestidigitator" />
+                        <span class="sheet-h2">Prestidigitator</span>
+                    </div>
+                    <p>
+                        When you <strong><em>Cast a Spell</em></strong>, you may burn 1 Dexterity to take +1 to that roll.
+                    </p>
+                    <div class="sheet-row sheet-start">
+                        <input type="checkbox" class="sheet-row-field" name="attr_magicuser_move_necromancer" />
+                        <span class="sheet-h2">Necromancer</span>
+                    </div>
+                    <p>
+                        When you <strong><em>Perceive</em></strong>, <strong>on a 7+</strong> you sense any spirits of the dead in the vicinity in addition to the usual result, and may ask your questions directly of them. In addition, when you make any move against the dead or undead, take +1.
+                    </p>
+                    <div class="sheet-row sheet-start">
+                        <input type="checkbox" class="sheet-row-field" name="attr_magicuser_move_necromancer" />
+                        <span class="sheet-h2">Necromancer</span>
+                    </div>
+                    <p>
+                        When you <strong><em>Perceive</em></strong>, <strong>on a 7+</strong> you sense any spirits of the dead in the vicinity in addition to the usual result, and may ask your questions directly of them. In addition, when you make any move against the dead or undead, take +1.
+                    </p>
+                    <div class="sheet-row sheet-start">
+                        <input type="checkbox" class="sheet-row-field" name="attr_magicuser_move_ritualist" />
+                        <span class="sheet-h2">Ritualist</span>
+                    </div>
+                    <p>
+                        When you <strong><em>Cast a Spell after taking time to prepare</em></strong>, take +1 to that roll.
+                    </p>
+                    <div class="sheet-row sheet-start">
+                        <input type="checkbox" class="sheet-row-field" name="attr_magicuser_move_scholar" />
+                        <span class="sheet-h2">Scholar</span>
+                    </div>
+                    <p>
+                        When you <strong><em>Establish something you read in a book</em></strong>, take +1 to that roll. In addition, all books have 1 extra use for you.
+                    </p>
+                    <div class="sheet-row sheet-start">
+                        <input type="checkbox" class="sheet-row-field" name="attr_magicuser_move_scholar" />
+                        <span class="sheet-h2">Scholar</span>
+                    </div>
+                    <p>
+                        When you <strong><em>Establish something you read in a book</em></strong>, take +1 to that roll. In addition, all books have 1 extra use for you.
+                    </p>
+                    <div class="sheet-row sheet-start">
+                        <input type="checkbox" class="sheet-row-field" name="attr_magicuser_move_sorcerer" />
+                        <span class="sheet-h2">Sorcerer</span>
+                    </div>
+                    <p>
+                        When you <strong><em>Cast a Spell</em></strong>, you may burn 1 Constitution to recombine words from all the spell names in your spellbook to make a new spell on the spot, using any spell name template of your choice. However, you take -1 to cast that spell.
+                    </p>
+                    <div class="sheet-row sheet-start">
+                        <input type="checkbox" class="sheet-row-field" name="attr_magicuser_move_thaumaturge" />
+                        <span class="sheet-h2">Thaumaturge</span>
+                    </div>
+                    <p>
+                        When you <strong><em>Cast a Spell</em></strong>, you may burn ability points of your choice to increase your available power, at a cost of 2 ability points per 1 point of power.
+                    </p>
+                    <div class="sheet-row sheet-start">
+                        <input type="checkbox" class="sheet-row-field" name="attr_magicuser_move_wizard" />
+                        <span class="sheet-h2">Wizard</span>
+                    </div>
+                    <p>
+                        When you <strong><em>Study your Spellbook</em></strong>, forget all memorized spells and memorize a number of spells equal to your level +INT instead of your level +1.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="sheet-class-page sheet-thief">
+            <div class="sheet-row">
+                <div class="sheet-col">
+                    <div class="sheet-row">
+                        <div class="sheet-col">
+                            <span class="h1">Thief Moves</span>
+                            <span>You start with all of these.</span>
+                        </div>
+                        <div class="sheet-col sheet-center">
+                            <div class="sheet-row sheet-end">
+                                <div class="sheet-col sheet-center">
+                                    <input name="attr_cunning_max" type="number" disabled="true" value="@{level} + @{INT}" />
+                                    <span>max</span>
+                                </div>
+                                <div class="sheet-connect"></div>
+                                <div class="sheet-col sheet-center">
+                                    <input name="attr_cunning" type="number" value="@{level} + @{INT}" />
+                                    <span>current</span>
+                                </div>
+                            </div>
+                            <span class="sheet-h2">Cunning</span>
+                        </div>
+                    </div>
+                    <div class="sheet-row sheet-start">
+                        <div class="sheet-radio-track">
+                            <input type="radio" class="sheet-normal" name="attr_thief_move_tricks" value="1" checked="checked" /><span></span>
+                            <input type="radio" class="sheet-normal" name="attr_thief_move_tricks" value="2" /><span></span>
+                            <input type="radio" class="sheet-normal" name="attr_thief_move_tricks" value="3" /><span></span>
+                            <input type="radio" class="sheet-normal" name="attr_thief_move_tricks" value="4" /><span></span>
+                            <input type="radio" class="sheet-normal" name="attr_thief_move_tricks" value="5" /><span></span>
+                        </div>
+                        <div class="sheet-divide"></div>
+                        <span class="sheet-h2">Tricks of the Trade</span>
+                    </div>
+                    <p>
+                        You walk the byways between right and wrong, a shadowy realm where unorthodox methods of acqusition and elusion are what get the job done. Each time you take this move, choose 1 area of expertise:
+                    </p>
+                    <p class="sheet-row sheet-thief-tricks">
+                       <span class="sheet-col">
+                           <span class="sheet-row sheet-start">
+                               <input class="sheet-row-field" type="checkbox" name="attr_thief_trick_stealth" checked="checked" />
+                               <span>Stealth</span>
+                           </span>
+                           <span class="sheet-row sheet-start">
+                               <input class="sheet-row-field" type="checkbox" name="attr_thief_trick_acrobatics" />
+                               <span>Acrobatics</span>
+                           </span>
+                       </span> 
+                       <span class="sheet-col">
+                           <span class="sheet-row sheet-start">
+                               <input class="sheet-row-field" type="checkbox" name="attr_thief_trick_locks" />
+                               <span>Locks</span>
+                           </span>
+                           <span class="sheet-row sheet-start">
+                               <input class="sheet-row-field" type="checkbox" name="attr_thief_trick_traps" />
+                               <span>Traps</span>
+                           </span>
+                       </span> 
+                       <span class="sheet-col">
+                           <span class="sheet-row sheet-start">
+                               <input class="sheet-row-field" type="checkbox" name="attr_thief_trick_poison" />
+                               <span>Poison</span>
+                           </span>
+                           <span class="sheet-row sheet-start">
+                               <input class="sheet-row-field" type="checkbox" name="attr_thief_trick_treasure" />
+                               <span>Treasure</span>
+                           </span>
+                       </span>
+                       <span class="sheet-col">
+                           <span class="sheet-row sheet-start">
+                               <input class="sheet-row-field" type="checkbox" name="attr_thief_trick_disguise" />
+                               <span>Disguise</span>
+                           </span>
+                           <span class="sheet-row sheet-start">
+                               <input class="sheet-row-field" type="checkbox" name="attr_thief_trick_negotiation" />
+                               <span>Negotiation</span>
+                           </span>
+                       </span> 
+                    </p>
+                    <p>
+                        <strong>Cunning</strong> represents how clever and prepared you are at any given moment. Your maximum cunning is equal to your current level, +INT (minimum of 1).
+                    </p>
+                    <p>
+                        When you <strong><em>take the time to brood in silence and plot your next move</em></strong>, reset your cunning to its current maximum.
+                    </p>
+                    <p>
+                        When you <strong><em>make any move that falls within an area of your expertise</em></strong>, after you roll you may increase the result by 1 for each point of cunning you choose to spend.
+                    </p>
+                    <span class="sheet-h2">Hide in Shadows</span>
+                    <p>
+                        When you <strong><em>are out of sight and remain quiet and still</em></strong>, you may spend 1 cunning to go unnoticed until you act or until someone is right on top of you (whichever comes first).
+                    </p>
+                    <span class="sheet-h2">Move Silently</span>
+                    <p>
+                        When you <strong><em>sneak from one place to another</em></strong>, name a destination within sight and roll +DEX: <strong>on a 10+</strong>, you get there and take +1 forward against whomever failed to notice you; <strong>on a 7-9</strong>, choose 1 from the list below.
+                    </p>
+                    <ul>
+                        <li>They notice you before you get there, but you have the upper hand and take +1 forward.</li>
+                        <li>You have to stop when you’re only part way there, or else they’ll notice you.</li>
+                        <li>They notice you as soon as you reach your goal, and you take -1 forward.</li>
+                    </ul>
+                    <span class="sheet-h2">Pick Locks or Disarm Traps</span>
+                    <p>
+                        When you <strong><em>attempt to neutralize or circumvent a mechanical device with the proper tools</em></strong>, roll +DEX: <strong>on a 10+</strong>, you do it, as well as could be expected; <strong>on a 7-9</strong>, you do it, but the Judge chooses 1 from the list below.
+                    </p>
+                    <ul>
+                        <li>Your tampering attracts unwanted attention.</li>
+                        <li>It’ll work, but there’s a hitch (ask the Judge what).</li>
+                        <li>You expend resources of the Judge’s choice (tools, ability points, etc.).</li>
+                    </ul>
+                    <span class="sheet-h2">Purloin</span>
+                    <p>
+                        When you <strong><em>surreptitiously swipe something out from under someone’s nose</em></strong>, roll +DEX: <strong>on a 10+</strong>, it’s yours, and they won’t notice until they look for it; <strong>on a 7-9</strong>, it’s yours, but they notice it’s gone right away.
+                    </p>
+                    <span class="sheet-h2">Backstab</span>
+                    <p>
+                        When you <strong><em>use a hand weapon to attack a surprised or defenseless target</em></strong>, you can choose to simply deal your damage or roll +DEX: <strong>on a 10+</strong>, you deal your damage and choose 2 from the list below; <strong>on a 7-9</strong>, you deal your damage and choose 1.
+                    </p>
+                    <ul>
+                        <li>You slip back out of reach after striking.</li>
+                        <li>You deal your damage twice.</li>
+                        <li>You create an advantage—describe it, and the next person to exploit it takes +1 forward.</li>
+                    </ul>
+                </div>
+                <div class="sheet-col">
+                    <span class="sheet-h1">Advanced Moves</span>
+                    <span>May be chosen when you <strong><em>level up.</em></strong></span>
+                    <hr />
+                    <div class="sheet-row sheet-start">
+                        <input type="checkbox" class="sheet-row-field" name="attr_thief_move_assassinate" />
+                        <span class="sheet-h2">Assassinate</span>
+                    </div>
+                    <p>
+                        When you <strong><em>declare a target as your mark</em></strong>, spend 2 cunning. When you <strong><em>Backstab your mark</em></strong>, whatever damage you deal is doubled. You may only have one mark at a time.
+                    </p>
+                    <div class="sheet-row sheet-start">
+                        <input type="checkbox" class="sheet-row-field" name="attr_thief_move_evade" />
+                        <span class="sheet-h2">Evade</span>
+                    </div>
+                    <p>
+                        When you <strong><em>roll a 7-9 to Fight</em></strong>, you may forego dealing damage and spend 1 cunning to reduce the damage you suffer by DEX +1 (minimum 1).
+                    </p>
+                    <div class="sheet-row sheet-start">
+                        <input type="checkbox" class="sheet-row-field" name="attr_thief_move_feint" />
+                        <span class="sheet-h2">Feint</span>
+                    </div>
+                    <p>
+                        When you <strong><em>roll a 7-9 to Fight</em></strong>, take +1 forward against your foe.
+                    </p>
+                    <div class="sheet-row sheet-start">
+                        <input type="checkbox" class="sheet-row-field" name="attr_thief_move_fence" />
+                        <span class="sheet-h2">Fence</span>
+                    </div>
+                    <p>
+                        When you <strong><em>Find a Buyer in a familiar steading</em></strong>, you may spend 1 cunning before rolling to automatically succeed as if you rolled a 10+.
+                    </p>
+                    <div class="sheet-row sheet-start">
+                        <input type="checkbox" class="sheet-row-field" name="attr_thief_move_luckydog" />
+                        <span class="sheet-h2">Lucky Dog</span>
+                    </div>
+                    <p>
+                        When you <strong><em>Level Up</em></strong>, you heal 1d6 Luck instead of 1.
+                    </p>
+                    <div class="sheet-row sheet-start">
+                        <input type="checkbox" class="sheet-row-field" name="attr_thief_move_menace" />
+                        <span class="sheet-h2">Menace to Society</span>
+                    </div>
+                    <div>[min. INT +1 and level 5; must be <em>Chaotic</em>, or <em>Evil</em>]</div>
+                    <p>
+                        If you <strong><em>have spent 1 month of downtime studying spells</em></strong>, you may begin multiclassing as a Magic-User, and add Magic-User moves to this playbook. Choose your starting spells from those which you have studied.
+                    </p>
+                    <div class="sheet-row sheet-start">
+                        <input type="checkbox" class="sheet-row-field" name="attr_thief_move_mercenary" />
+                        <span class="sheet-h2">Mercenary</span>
+                    </div>
+                    <div>[min. STR +1 and level 5; must be <em>Neutral</em>, <em>Chaotic</em>, or <em>Evil</em>]</div>
+                    <p>
+                        If you <strong><em>have killed for pay</em></strong>, you may begin multiclasing as a Fighter, and add Fighter moves to this playbook.
+                    </p>
+                    <div class="sheet-row sheet-start">
+                        <input type="checkbox" class="sheet-row-field" name="attr_thief_move_poisoner" />
+                        <span class="sheet-h2">Poisoner</span>
+                    </div>
+                    <p>
+                        When you <strong><em>have the knowledge and supplies to brew a poison</em></strong>, you may spend 1 day of downtime brewing that poison, and gain 3 uses of that poison.
+                    </p>
+                    <div class="sheet-row sheet-start">
+                        <input type="checkbox" class="sheet-row-field" name="attr_thief_move_sensedanger" />
+                        <span class="sheet-h2">Sense Danger</span>
+                    </div>
+                    <p>
+                        When you <strong><em>consider a situation</em></strong>, however briefly, you may spend 1 cunning to force the Judge to tell you if any threat is imminent, and from whence it will come.
+                    </p>
+                    <div class="sheet-row sheet-start">
+                        <input type="checkbox" class="sheet-row-field" name="attr_thief_move_scalesurface" />
+                        <span class="sheet-h2">Scale Sheer Surface</span>
+                    </div>
+                    <p>
+                        When you <strong><em>climb something a person should not be able to climb</em></strong>, you may Make a Saving throw to do so.
+                    </p>
+                    <div class="sheet-row sheet-start">
+                        <input type="checkbox" class="sheet-row-field" name="attr_thief_move_sharpshooter" />
+                        <span class="sheet-h2">Sharpshooter</span>
+                    </div>
+                    <p>
+                        When you <strong><em>deal damage with a missile weapon</em></strong>, deal your damage +DEX and ignore WIS points of your target’s armor (minimum 0).
+                    </p>
+                    <div class="sheet-row sheet-start">
+                        <input type="checkbox" class="sheet-row-field" name="attr_thief_move_slipfree" />
+                        <span class="sheet-h2">Slip Free</span>
+                    </div>
+                    <p>
+                        When you <strong><em>take action to release yourself from bonds of any kind</em></strong>, roll +DEX: <strong>on a 10+</strong>, you’re free, make the most of it; <strong>on a 7-9</strong>, you’re free, but choose 1:
+                    </p>
+                    <ul>
+                        <li>You leave something or someone important behind.</li>
+                        <li>You incur some injury or disadvantage (ask the Judge what).</li>
+                        <li>Whoever bound you in the first place knows that you’re free.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/worker">
+    const classTable = {
+        "Fighter": 10,
+        "Cleric": 8,
+        "Thief": 6,
+        "Magic User": 4
+    };
+    
+    const abilityModTable = [{
+        max: 3,
+        mod: -3
+    },{
+        min: 4,
+        max: 5,
+        mod: -2
+    },{
+        min: 6,
+        max: 8,
+        mod: -1
+    },{
+        min: 9,
+        max: 12,
+        mod: 0
+    },{
+        min: 13,
+        max: 15,
+        mod: 1
+    },{
+        min: 16,
+        max: 17,
+        mod: 2
+    },{
+        min: 18,
+        mod: 3
+    }];
+    
+    on("change:repeating_gear:item_weight remove:repeating_gear", function() {
+        getSectionIDs("repeating_gear", function(IDArray) {
+            var fieldNames = [];
+            for (var i=0; i < IDArray.length; i++) {
+                fieldNames.push("repeating_gear_" + IDArray[i] + "_item_weight");
+            }
+
+            var total = 0;
+            getAttrs(fieldNames, function(values) {
+                for (var i=0; i < IDArray.length; i++) {
+                    total += parseInt(values["repeating_gear_" + IDArray[i] + "_item_weight"])||0;
+                }
+                setAttrs({
+                    "carried": total
+                });
+            });
+        });
+    });
+    
+    on("change:strength", getAbilityScoreChangeHandler("STR"));
+    on("change:constitution", getAbilityScoreChangeHandler("CON"));
+    on("change:dexterity", getAbilityScoreChangeHandler("DEX"));
+    on("change:intelligence", getAbilityScoreChangeHandler("INT"));
+    on("change:wisdom", getAbilityScoreChangeHandler("WIS"));
+    on("change:charisma", getAbilityScoreChangeHandler("CHA"));
+    on("change:luck", getAbilityScoreChangeHandler("LUC"));
+    
+    on("change:xp", function(e) {
+        adjustLevel(e.newValue);
+    });
+
+    function adjustLevel(currentXp) {
+        var newLevel = calculateLevelForXp(currentXp);
+        getAttrs(['level'], function(values) {
+             if (newLevel !== values[0]) {
+                 setAttrs({"level": newLevel});
+             }
+        });
+    }
+    
+    function calculateLevelForXp(xp) {
+        var level = 1;
+        var tnl = 10;
+        while(true) {
+            if (xp >= tnl) {
+                xp -= tnl;
+                level++;
+                tnl += 5;
+            } else {
+                return level;
+            }
+        }
+    }
+    
+    function getAbilityScoreChangeHandler(ability) {
+        return function(e) {
+            var mod = calculateAbilityMod(e.newValue);
+            console.log("The new " + ability + " is " + mod);
+            var attr = {};
+            attr[ability] = mod;
+            setAttrs(attr);
+        };
+    }
+    
+    function calculateAbilityMod(abilityScore) {
+        var score = 1 * abilityScore;
+        var mod = 0
+        var row;
+        for(var i = 0; i < abilityModTable.length; i++) {
+            row = abilityModTable[i];
+            if (row.min === undefined || row.min <= score) {
+                if (row.max === undefined || row.max >= score) {
+                    mod = row.mod;
+                }
+            }
+        }
+        return mod;
+    }
+
+
+</script>
