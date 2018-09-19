@@ -194,8 +194,8 @@
                         <span>
                             When you carry more weight than your Capacity but equal
                             to or less than twice your Capacity, you suffer -1
-                            ongoing until you lighten your load. When you carry
-                            more than twice your Capcity, you are slow and clumsy.
+                            ongoing until you lighten your load. You cannot carry
+							more weight than twice your Capacity.
                         </span>
                     </div>
                 </div>
@@ -581,14 +581,14 @@
                         <span>To mark XP as an individual...</span>
                         <ul>
                             <li><input type="text" name="attr_ClassXpKey" placeholder="how does your class earn XP" /></li>
-                            <li>Act according to your traits.</li>
-                            <li>Achieve your alignment goal.</li>
+                            <li>Fulfil at least one trait in a memorable way.</li>
+                            <li>Fulfil your alignment goal at least once.</li>
                         </ul>
                     </div>
                     <div>
                         <span>To mark XP as a group...</span>
                         <ul>
-                            <li>Discover something new about the world.</li>
+                            <li>Make an exciting discovery.</li>
                             <li>Overcome a difficult obstacle.</li>
                             <li>Acquire some memorable booty.</li>
                         </ul>
@@ -905,8 +905,10 @@
                         When you <strong><em>take the necessary time to commune with your deity</em></strong>, 
                         say what that looks like and roll +WIS, taking +1 if you bear 
                         your holy symbol, and +1 if you occupy a place dedicated to 
-                        your faith: on a <strong>10+</strong>, your prayers are heard—restore your favor 
-                        to maximum; on a <strong>7-9</strong>, gain 1 favor. You may only Pray once per day.
+                        your faith: <strong>on a 10+</strong>, your prayers are heard—restore your favor 
+                        to maximum; <strong>on a 7-9</strong>, gain 1 favor; <strong>on a 6-</strong>,
+						mark Wisdom, and the Judge makes a move.
+						
                     </p>
                     <span class="sheet-h2">Convert</span>
                     <p>
@@ -915,11 +917,11 @@
                     </p>
                     <span class="sheet-h2">Lay on Hands</span>
                     <p>
-                        When you <strong><em>call upon the power of your deity to heal a living thing with which you are in skin-to-skin contact</em></strong>, roll +WIS: <strong>on a 10+</strong>, they heal points equal to double your current favor; <strong>on a 7-9</strong>, you may burn 1 Constitution to heal points equal to your current favor. Points healed must be ability or hit points, your choice. You may not Lay Hands on a creature of opposite Alignment (Good opposes Evil; Lawful opposes Chaotic).
+                        When you <strong><em>call upon the power of your deity to heal a living thing with which you are touching</em></strong>, burn 1 Constitution and roll +WIS: <strong>on a 10+</strong>, they heal points and/or ability points equal to double your current favor; <strong>on a 7-9</strong>, they heal hit points and/or ability points equal to your current favor; <strong>on a 6-</strong>, mark Wisdom, and the Judge makes a move. You may not lay hands on yourself or a creature of opposite Alignment.
                     </p>
                     <span class="sheet-h2">Invoke</span>
                     <p>
-                        When you <strong><em>call upon your deity to manifest their powerin a particular way</em></strong>, say what you want to have happen and how it falls within at least one of your deity’s domains. The Judge will assign your request <strong>hubris</strong> from 0 (rote) to 6 (miraculous). Then, roll -hubris, +1 if you bear your holy symbol: <strong>on a 10+</strong>, your request is granted with duration 3, and may be made permanent if you perma-burn 1 ability point per point of hubris; <strong>on a 7-9</strong>, your request is granted with duration 1, but your deity demands proof of devotion - the Judge chooses 1 from the list below.
+                        When you <strong><em>call upon your deity to manifest their powerin a particular way</em></strong>, say what you want to have happen and how it falls within at least one of your deity’s domains. The Judge will assign your request <strong>hubris</strong> from 0 (rote) to 6 (miraculous). Then, roll -hubris, +1 if you bear your holy symbol, and +1 if you occupy a place sacred to your faith: <strong>on a 10+</strong>, your request is granted with duration 3, and may be made permanent if you perma-burn 1 ability point per point of hubris; <strong>on a 7-9</strong>, your request is granted with duration 1, but your deity demands proof of devotion - the Judge chooses 1 from the list below; <strong>on a 6-</strong>, mark XP (or Wisdom?), and the Judge makes a move.
                     </p>
                     <ul>
                         <li><strong>Sacrifice:</strong> take -1 ongoing to Pray until you destroy or tithe something of the Judge’s choosing (silver, blood, something of symbolic signi cance to your faith, etc.)</li>
@@ -934,23 +936,19 @@
                 <div class="sheet-col">
                     <div>
                         <span class="sheet-h1">Advanced Moves</span>
-                        <span>May be chosen when you <strong><em>level up</em></strong>.</span>
+                        <span><br />May be chosen when you <strong><em>level up</em></strong> and your new level is odd (3,5,etc).</span>
                     </div>
-                    <hr />
                     <div>
                         <input type="checkbox" name="attr_cleric_move_avatar" />
                         <span class="sheet-h2">Avatar</span>
                     </div>
                     <p>
-                        When you <strong><em>are overtaken by the divine spirit in pursuit of a particular goal</em></strong>, roll +WIS: <strong>on a 10+</strong>, choose 1 from the list below; <strong>on a 7-9</strong>, choose 2; on a 6-, mark XP, and all 3 apply. While you are driven by divine will, you take +1 ongoing and roll +WIS in place of all other ability modifiers.
+                        When you <strong><em>declare a goal in the name of your deity and embody divine will in action</em></strong>, if the Judge deems it a worthy goal your favor bonus becomes +2 per favor spent (instead of +1), until the goal is met or you become incapacitated. Then, roll +WIS: <strong>on a 10+</strong>, choose 1 from the list below; <strong>on a 7-9</strong>, choose 2; <strong>on a 6-</strong>, mark Wisdom, and all 3 apply.
                         <ul>
-                            <li>When the spirit leaves you, burn 1d6 Strength, 1d6 Constitution, and 1d6 Dexterity.</li>
-                            <li>As soon as you have 0 favor, the spirit leaves you and the Judge chooses 1 proof of devotion from the Invoke list.</li>
-                            <li>While the spirit is in you, you must adhere to your deity’s agenda at all costs.</li>
+                            <li>When the spirit leaves you, burn 1d6 ability points of the Judge's choice.</li>
+                            <li>As soon as you have 0 favor, the spirit leaves you and you call unsconcious.</li>
+                            <li>While the spirit is in you, you will not waver from your goal at any cost.</li>
                         </ul>
-                    </p>
-                    <p>
-                        When you <strong><em>meet your goal or become incapacitated</em></strong>, whichever comes first, the divine spirit leaves you.
                     </p>
                     <div>
                         <input type="checkbox" name="attr_cleric_move_crusader" />
@@ -965,28 +963,28 @@
                         <span class="sheet-h2">Defender of the Faith</span>
                     </div>
                     <p>
-                        When you <strong><em>are all that stands between something of great value to your deity and a threat to its existence</em></strong>, take +1 ongoing, for as long as the threat persists. In addition, when you suffer damage from that threat, you may spend favor to ignore some or all of it, at cost of 1 favor per 1 point of damage.
+                        When you <strong><em>face a threat that would do harm to someone or something of value to your deity</strong></em>, you may spend favor to gain temporary armor for as long as the threat persists, at a cost of 1 favor per 1 point of armor. This armor blocks physical damage, as well as any damage from sources within or directly opposed to your deity’s domain.
                     </p>
                     <div>
                         <input type="checkbox" name="attr_cleric_move_inspire" />
                         <span class="sheet-h2">Inspire</span>
                     </div>
                     <p>
-                        When you <strong><em>stand fast before a clear threat in the name of your deity</em></strong>, roll +CHA: <strong>on a 10+</strong>, all allies who bear witness take +1 ongoing in the face of that threat; <strong>on a 7-9</strong>, they take +1 forward against it.
+                        When you <strong><em>stand fast before a clear threat in the name of your deity</em></strong>, roll +CHA: <strong>on a 10+</strong>, all allies who bear witness take +1 ongoing in the face of that threat; <strong>on a 7-9</strong>, they take +1 forward against it; <strong>on a 6-</strong>, mark Charisma, and the Judge makes a move.
                     </p>
                     <div>
                         <input type="checkbox" name="attr_cleric_move_martyr" />
                         <span class="sheet-h2">Martyr</span>
                     </div>
                     <p>
-                        When you <strong><em>Bite the Dust in service to your deity</em></strong>, restore your favor to its current maximum, and automatically Inspire all allies who witnessed your fall as if you rolled a 10+. Then, if you die and choose to Rise to the Occasion by becoming a follower who witnessed your death, that follower converts to your faith on the spot and starts with bonus XP equal to your favor.
+                        When you <strong><em>Bite the Dust in service to your deity</em></strong>, restore your favor to its current maximum, and all allies who witnessed your fall take +1 ongoing in the face of whatever brought you down. Then, if you die, your next character starts oﬀ as an adherent of your faith with the same alignment as you and bonus XP equal to twice your maximum favor.
                     </p>
                     <div>
                         <input type="checkbox" name="attr_cleric_move_missionary" />
                         <span class="sheet-h2">Missionary</span>
                     </div>
                     <p>
-                        When you <strong><em>spend a day spreading the teachings of your faith to the locals</em></strong>, gain 1 favor and take +1 forward to Convert or Recruit.
+                        When you <strong><em>spend a day spreading the teachings of your faith to the locals</em></strong>, restore your favor to maximum and take +1 forward to <strong>Convert</strong> or <strong>Recruit</strong>.
                     </p>
                     <div>
                         <input type="checkbox" name="attr_cleric_move_prayforguidance" />
@@ -1056,13 +1054,12 @@
                     </p>
                     <span class="sheet-h2">Revel in Battle</span>
                     <p>
-                        When you <strong><em>Fight or Shoot or Throw and roll a 10+</em></strong>, you may spend mettle to add 1 or more of the following e ects to the move result, at a cost of 1 mettle per effect:
+                        When you <strong><em>Fight or Shoot or Throw and roll a 10+</em></strong>, you may spend mettle to add 1 or more of the following effects to the move result, at a cost of 1 mettle per effect:
                     </p>
                     <ul>
                         <li><strong>Strike hard:</strong> increase damage dealt by +STR in this instance.</li>
                         <li><strong>Strike true:</strong> ignore +DEX worth of your target's armor in this instance.</li>
                         <li><strong>Gain momentum:</strong> take +1 forward against your next target.</li>
-                        <li><strong>Coordinate:</strong> grant an ally of your choosing +1 forward against your target.</li>
                         <li><strong>Handicap:</strong> inflict a condition - stunned, hindered, etc. - of your choice on your foe (subject to Judge approval), with a Duration of +INT (minimum 1).</li>
                     </ul>
                     <p>
@@ -1070,7 +1067,7 @@
                     </p>
                     <span class="sheet-h2">Bend Bars, Lift Gates</span>
                     <p>
-                        When you <strong><em>use pure strength to destroy or remove an inanimate obstacle</em></strong>, burn 1 Strength and roll +STR: <strong>on a 10+</strong>, choose 3 from the list below; <strong>on a 7-9</strong>, choose 2; on a 6-, mark XP and choose 1.
+                        When you <strong><em>use pure strength to remove or destroy an inanimate obstacle</em></strong>, burn 1 Strength and roll +STR: <strong>on a 10+</strong>, choose 3 from the list below; <strong>on a 7-9</strong>, choose 2; <strong>on a 6-</strong>, mark Strength and choose 1.
                     </p>
                     <ul>
                         <li>It doesn’t take a long time.</li>
@@ -1080,32 +1077,26 @@
                     </ul>
                     <span class="sheet-h2">No Guts, No Glory</span>
                     <p>
-                        When you <strong><em>charge into battle against overwhelming odds</em></strong>, burn 1 Wisdom and roll +WIS: <strong>on a 10+</strong>, choose 3 from the list below; <strong>on a 7-9</strong>, choose 2; on a 6-, mark XP and choose 1.                        
+                        When you <strong><em>charge into battle against overwhelming odds</em></strong>, burn 1 Wisdom and roll +WIS: <strong>on a 10+</strong>, choose 3 from the list below; <strong>on a 7-9</strong>, choose 2; on a 6-, mark Wisdom and choose 1.
                     </p>
                     <ul>
                         <li>You have +1 Armor until you’re incapacitated.</li>
                         <li>The opposition is interested only in you until you’re incapacitated, or until a greater threat presents itself (whichever comes first).</li>
-                        <li>You take +1 ongoing until you su er damage.</li>
-                        <li>All allies witness to your courage/foolhardiness take +1 forward.</li>
+                        <li>You take +1 ongoing until you suffer damage.</li>
+                        <li>All allies witness to your courage or foolhardiness take +1 forward.</li>
                     </ul>
                 </div>
                 <div class="sheet-col">
+					<div>
                     <span class="sheet-h1">Advanced Moves</span>
-                    <span>Maybe chosen when you <strong><em>level up.</em></strong></span>
-                    <hr />
-                    <div class="sheet-row sheet-start">
+					<span><br />May be chosen when you <strong><em>level up</em></strong> and your new level is odd (3,5,etc).</span>
+					</div>
+					<div class="sheet-row sheet-start">
                         <input type="checkbox" class="sheet-row-field" name="attr_fighter_move_deflectblows" />
                         <span class="sheet-h2">Deflect Blows</span>
                     </div>
                     <p>
-                        When you <strong><em>wield a favored or mastered melee weapon and roll a 7-9 to Fight</em></strong>, instead of dealing your damage you may spend 1 mettle to subtract your damage roll from your foe’s. You suffer any remaining damage, and your foe suffers no damage.
-                    </p>
-                    <div class="sheet-row sheet-start">
-                        <input type="checkbox" class="sheet-row-field" name="attr_fighter_move_intimidate" />
-                        <span class="sheet-h2">Intimidate</span>
-                    </div>
-                    <p>
-                        When you <strong><em>Negotiate using threat of violence</em></strong>, roll +STR instead of +CHA.
+                        When you <strong><em>wield a favored or mastered melee weapon and roll a 7-9 to Fight</em></strong>, instead of dealing your damage you may roll your damage and subtract the result from the damage your foe inﬂicts. You suﬀer any remaining damage, and your foe suﬀers none.
                     </p>
                     <div class="sheet-row sheet-start">
                         <input type="checkbox" class="sheet-row-field" name="attr_fighter_move_masterweapon" />
@@ -1132,7 +1123,7 @@
                         [min. DEX +1 and level 5; must be <em>Neutral</em>, <em>Chaotic</em>, or <em>Evil</em>]
                     </div>
                     <p>
-                        If you <strong><em>have committed a duplicitous act knowing that it would harm an innocent person</em></strong>, you may begin multiclassing as a thief, and add  Thief Moves to this playbook.
+                        If you <strong><em>have committed a duplicitous act knowing that it would harm an innocent person</em></strong>, you may begin multiclassing as a thief, and add Thief Moves to this playbook.
                     </p>
                     <div class="sheet-row sheet-start">
                         <input type="checkbox" class="sheet-row-field" name="attr_fighter_move_secondskin" />
@@ -1146,28 +1137,28 @@
                         <span class="sheet-h2">Shieldbearer</span>
                     </div>
                     <p>
-                        When you <strong><em>use a shield to block damage</em></strong>, you may spend 1 mettle to make your shield worth 1d6 armor for this attack. If damage from this attack exceeds your total armor, you take that excess damage and your shield is destroyed.
+                        When you <strong><em>use a shield to block damage</em></strong>, you may spend 1 mettle to make your shield worth 1d6 armor in this instance. If damage from this instance exceeds your total armor, you take that excess damage and your shield is destroyed.
                     </p>
                     <div class="sheet-row sheet-start">
                         <input type="checkbox" class="sheet-row-field" name="attr_fighter_move_shoutorders" />
-                        <span class="sheet-h2">Shout Orders</span>
+                        <span class="sheet-h2">Leader</span>
                     </div>
                     <p>
-                        When you <strong><em>bark commands in the heat of battle</em></strong>, roll +CHA: <strong>on a 10+</strong>, all allies take +1 ongoing to act on those orders until the battle is over or you give new orders, whichever comes first; <strong>on a 7-9</strong>, all allies who obey take +1 forward.
+                        When you <strong><em>bark commands in the heat of battle</em></strong>, roll +CHA: <strong>on a 10+</strong>, all allies take +1 ongoing to act on those orders until the battle is over or you give new orders, whichever comes first; <strong>on a 7-9</strong>, all allies who obey take +1 forward; <strong>on a 6-</strong>, mark Charisma and the Judge makes a move.
                     </p>
                     <div class="sheet-row sheet-start">
                         <input type="checkbox" class="sheet-row-field" name="attr_fighter_move_smash" />
                         <span class="sheet-h2">Smash</span>
                     </div>
                     <p>
-                        When you <strong><em>Revel in Battle and strike hard</em></strong>, you may burn 1 Strength to permanently reduce your target’s armor by 1d4, in addition to the usual effect.
+                        When you <strong><em>Revel in Battle and strike hard</em></strong>, you may burn 1 Strength to make your attack forceful and permanently reduce your target’s armor by 1d4, in addition to the usual effect.
                     </p>
                     <div class="sheet-row sheet-start">
                         <input type="checkbox" class="sheet-row-field" name="attr_fighter_move_templar" />
                         <span class="sheet-h2">Templar</span>
                     </div>
                     <div>
-                        [min. CHA +1 and level 5; must be <em>Good</em>, <em>Lawful</em>, or <em>Evil</em>]
+                        [min. CHA +1 and level 5]
                     </div>
                     <p>
                         If you <strong><em>have sworn to devote your life to a specific deity</em></strong>, you may begin multiclassing as a Cleric, and add Cleric Moves to this playbook.
@@ -1177,11 +1168,11 @@
                         <span class="sheet-h2">Tireless</span>
                     </div>
                     <p>
-                        When you <strong><em>heal Strength or Constitution</em></strong>, you heal twice as much as normal.
+                        When you <strong><em>heal ability points</em></strong>, you heal twice as much as normal.
                     </p>
                     <div class="sheet-row sheet-start">
                         <input type="checkbox" class="sheet-row-field" name="attr_fighter_move_vengefulsoul" />
-                        <span class="sheet-h2">Vengelful Soul</span>
+                        <span class="sheet-h2">Vengelful</span>
                     </div>
                     <p>
                         When you <strong><em>suffer physical or emotional harm</em></strong>, you may burn 1 Wisdom to take +1 ongoing against the source of that harm until it is destroyed.
@@ -1224,7 +1215,7 @@
                         You are a student of the sorcerous arts. You start with 2 spells, memorized and inscribed in your <strong>spellbook</strong>. Roll them up on the Spell Name table.
                     </p>
                     <p>
-                        <strong>Power</strong> represents your ability to manipulate arcane energy. Your power is equal to your current level +INT (minimum of 1). Each time you Cast a Spell, you start with full power and must decide how to distribute that power among the four aspects of the spell:
+                        <strong>Power</strong> represents your ability to manipulate arcane energy. Your power is equal to your current level +INT (minimum of 1). Each time you <strong>Cast a Spell</strong>, you start with full power and must decide how to distribute that power among the four aspects of the spell:
                     </p>
                     <p>
                         <table class="sheet-table">
@@ -1305,11 +1296,11 @@
                     <ol start="9" reversed>
                         <li><strong>Disturbance!</strong> The spell works as intended, but your casting draws unwanted attention.</li>
                         <li><strong>Vacuity!</strong> The spell works as intended, but you forget it and may not cast it again until you re-memorize it.</li>
-                        <li><strong>Perplexity!</strong> The spell works as intended, but you burn 1d4 Intelligence.</li>
-                        <li><strong>Misfire!</strong> Mark XP. The spell works, but a ects a target other than the intended target.</li>
-                        <li><strong>Disruption!</strong> Mark XP. The spell fails and you forget it, but arcane forces temporarily warp reality for the worse, in proportion to the spell’s intended effect.</li>
-                        <li><strong>Disaster!</strong> Mark XP. The spell fails and you forget it, but someone or something nearby (which might be you or an ally) suffers a <em>permanent</em> affiction or alteration of the Judge’s choosing, in proportion to the spell’s intended effect.</li>
-                        <li><em>...or less.</em> <strong>Incursion!</strong> Mark XP. The spell fails, you forget it, and some annoying, troublesome, or dangerous arcane force is released into this world. Left unchecked, it will worsen.</li>
+                        <li><strong>Perplexity!</strong> The spell works as intended, but you burn 1 Intelligence.</li>
+                        <li><strong>Misfire!</strong> Mark Intelligence. The spell works, but affects a different target.</li>
+                        <li><strong>Disruption!</strong> Mark Intelligence. The spell fails and you forget it, but arcane forces temporarily warp reality for the worse, in proportion to the spell’s intended effect.</li>
+                        <li><strong>Disaster!</strong> Mark Intelligence. The spell fails and you forget it, but someone or something nearby (which might be you or an ally) suffers a <em>permanent</em> affiction or alteration of the Judge’s choosing, in proportion to the spell’s intended effect.</li>
+                        <li><em>...or less.</em> <strong>Incursion!</strong> Mark Intelligence. The spell fails, you forget it, and some troublesome or dangerous arcane force is released into this world. Left unchecked, it will worsen.</li>
                     </ol>
                     <p>
                         All questions raised by the results of your roll are answered by the Judge.
@@ -1319,8 +1310,10 @@
                     </p>
                 </div>
                 <div class="sheet-col">
+					<div>
                     <span class="sheet-h1">Advanced Moves</span>
-                    <span>May be taken when you <strong><em>level up</em></strong>.</span>
+					<span><br />May be chosen when you <strong><em>level up</em></strong> and your new level is odd (3,5,etc) </span>
+					</div>
                     <div class="sheet-row sheet-start">
                         <input type="checkbox" class="sheet-row-field" name="attr_magicuser_move_antiquarian" />
                         <span class="sheet-h2">Antiquarian</span>
@@ -1345,7 +1338,7 @@
                     <p class="sheet-col">
                         <span class="sheet-row sheet-start">
                             <input type="checkbox" class="sheet-row-field" name="attr_magicuser_move_formulate_template" />
-                            <span>Spend 1 hold to roll a spell nametemplate for the spell.</span>
+                            <span>Spend 1 hold to roll a spell name template for the spell.</span>
                         </span>
                         <span class="sheet-row sheet-start">
                             <input type="checkbox" class="sheet-row-field" name="attr_magicuser_move_formulate_namespell" />
@@ -1353,7 +1346,7 @@
                         </span>
                         <span class="sheet-row sheet-start">
                             <input type="checkbox" class="sheet-row-field" name="attr_magicuser_move_formulate_pay" />
-                            <span>Spend 1 hold to pay 50sp perspell namepart (i.e., a spell comprised of [Wizard Name] [Element] [Form] costs 150 silver).</span>
+                            <span>Spend 1 hold to pay 50sp per spell name part (i.e., a spell comprised of [Wizard Name] [Element] [Form] costs 150 silver).</span>
                         </span>
                         <span class="sheet-row sheet-start">
                             <input type="checkbox" class="sheet-row-field" name="attr_magicuser_move_formulate_inscribe" />
@@ -1378,13 +1371,6 @@
                         When you <strong><em>Perceive</em></strong>, <strong>on a 7+</strong> you sense any spirits of the dead in the vicinity in addition to the usual result, and may ask your questions directly of them. In addition, when you make any move against the dead or undead, take +1.
                     </p>
                     <div class="sheet-row sheet-start">
-                        <input type="checkbox" class="sheet-row-field" name="attr_magicuser_move_necromancer" />
-                        <span class="sheet-h2">Necromancer</span>
-                    </div>
-                    <p>
-                        When you <strong><em>Perceive</em></strong>, <strong>on a 7+</strong> you sense any spirits of the dead in the vicinity in addition to the usual result, and may ask your questions directly of them. In addition, when you make any move against the dead or undead, take +1.
-                    </p>
-                    <div class="sheet-row sheet-start">
                         <input type="checkbox" class="sheet-row-field" name="attr_magicuser_move_ritualist" />
                         <span class="sheet-h2">Ritualist</span>
                     </div>
@@ -1399,15 +1385,11 @@
                         When you <strong><em>Establish something you read in a book</em></strong>, take +1 to that roll. In addition, all books have 1 extra use for you.
                     </p>
                     <div class="sheet-row sheet-start">
-                        <input type="checkbox" class="sheet-row-field" name="attr_magicuser_move_scholar" />
-                        <span class="sheet-h2">Scholar</span>
-                    </div>
-                    <p>
-                        When you <strong><em>Establish something you read in a book</em></strong>, take +1 to that roll. In addition, all books have 1 extra use for you.
-                    </p>
-                    <div class="sheet-row sheet-start">
                         <input type="checkbox" class="sheet-row-field" name="attr_magicuser_move_sorcerer" />
                         <span class="sheet-h2">Sorcerer</span>
+                    </div>
+                    <div>
+                        [must be <em>Chaotic</em>, or <em>Evil</em>]
                     </div>
                     <p>
                         When you <strong><em>Cast a Spell</em></strong>, you may burn 1 Constitution to recombine words from all the spell names in your spellbook to make a new spell on the spot, using any spell name template of your choice. However, you take -1 to cast that spell.
@@ -1464,7 +1446,7 @@
                         <span class="sheet-h2">Tricks of the Trade</span>
                     </div>
                     <p>
-                        You walk the byways between right and wrong, a shadowy realm where unorthodox methods of acqusition and elusion are what get the job done. Each time you take this move, choose 1 area of expertise:
+                        You walk the byways between right and wrong, the gray area where unorthodox methods of acqusition and elusion are what get the job done. Each time you take this move, choose 1 area of expertise:
                     </p>
                     <p class="sheet-row sheet-thief-tricks">
                        <span class="sheet-col">
@@ -1512,7 +1494,7 @@
                         <strong>Cunning</strong> represents how clever and prepared you are at any given moment. Your maximum cunning is equal to your current level, +INT (minimum of 1).
                     </p>
                     <p>
-                        When you <strong><em>take the time to brood in silence and plot your next move</em></strong>, reset your cunning to its current maximum.
+                        When you <strong><em>take the time to brood in silence and plot your next move</em></strong>, reset your cunning to its maximum.
                     </p>
                     <p>
                         When you <strong><em>make any move that falls within an area of your expertise</em></strong>, after you roll you may increase the result by 1 for each point of cunning you choose to spend.
@@ -1523,16 +1505,16 @@
                     </p>
                     <span class="sheet-h2">Move Silently</span>
                     <p>
-                        When you <strong><em>sneak from one place to another</em></strong>, name a destination within sight and roll +DEX: <strong>on a 10+</strong>, you get there and take +1 forward against whomever failed to notice you; <strong>on a 7-9</strong>, choose 1 from the list below.
+                        When you <strong><em>sneak from one place to another</em></strong>, name a destination within sight and roll +DEX: <strong>on a 10+</strong>, you get there and take +1 forward against whomever failed to notice you; <strong>on a 7-9</strong>, choose 1 from the list below; <strong>on a 6-</strong>, mark Dexterity and the Judge makes a move.
                     </p>
                     <ul>
                         <li>They notice you before you get there, but you have the upper hand and take +1 forward.</li>
                         <li>You have to stop when you’re only part way there, or else they’ll notice you.</li>
                         <li>They notice you as soon as you reach your goal, and you take -1 forward.</li>
                     </ul>
-                    <span class="sheet-h2">Pick Locks or Disarm Traps</span>
+                    <span class="sheet-h2">Pick Locks & Disarm Traps</span>
                     <p>
-                        When you <strong><em>attempt to neutralize or circumvent a mechanical device with the proper tools</em></strong>, roll +DEX: <strong>on a 10+</strong>, you do it, as well as could be expected; <strong>on a 7-9</strong>, you do it, but the Judge chooses 1 from the list below.
+                        When you <strong><em>attempt to neutralize or circumvent a mechanical device with the proper tools</em></strong>, roll +DEX: <strong>on a 10+</strong>, you do it, as well as could be expected; <strong>on a 7-9</strong>, you do it, but the Judge chooses 1 from the list below; <strong>on a 6-</strong>, mark Dexterity and the Judge makes a move.
                     </p>
                     <ul>
                         <li>Your tampering attracts unwanted attention.</li>
@@ -1541,28 +1523,29 @@
                     </ul>
                     <span class="sheet-h2">Purloin</span>
                     <p>
-                        When you <strong><em>surreptitiously swipe something out from under someone’s nose</em></strong>, roll +DEX: <strong>on a 10+</strong>, it’s yours, and they won’t notice until they look for it; <strong>on a 7-9</strong>, it’s yours, but they notice it’s gone right away.
+                        When you <strong><em>surreptitiously swipe something out from under someone’s nose</em></strong>, roll +DEX: <strong>on a 10+</strong>, it’s yours, and they won’t notice until they look for it; <strong>on a 7-9</strong>, it’s yours, but they notice it’s gone right away; <strong>on a 6-</strong>, mark Dexterity and the Judge makes a move.
                     </p>
                     <span class="sheet-h2">Backstab</span>
                     <p>
-                        When you <strong><em>use a hand weapon to attack a surprised or defenseless target</em></strong>, you can choose to simply deal your damage or roll +DEX: <strong>on a 10+</strong>, you deal your damage and choose 2 from the list below; <strong>on a 7-9</strong>, you deal your damage and choose 1.
+                        When you <strong><em>use a hand weapon to attack a surprised or defenseless target</em></strong>, deal your damage and roll +DEX: <strong>on a 10+</strong>, choose 2 from the list below; <strong>on a 7-9</strong>, choose 1; <strong>on a 6-</strong>, mark Dexterity and the Judge makes a move.
                     </p>
                     <ul>
-                        <li>You slip back out of reach after striking.</li>
-                        <li>You deal your damage twice.</li>
+                        <li>You deal your damage again.</li>
+                        <li>You slip immediately out of your target’s reach.</li>
                         <li>You create an advantage—describe it, and the next person to exploit it takes +1 forward.</li>
                     </ul>
                 </div>
                 <div class="sheet-col">
+					<div>
                     <span class="sheet-h1">Advanced Moves</span>
-                    <span>May be chosen when you <strong><em>level up.</em></strong></span>
-                    <hr />
+                        <span><br />May be chosen when you <strong><em>level up</em></strong> and your new level is odd (3,5,etc).</span>
+                    </div>
                     <div class="sheet-row sheet-start">
                         <input type="checkbox" class="sheet-row-field" name="attr_thief_move_assassinate" />
                         <span class="sheet-h2">Assassinate</span>
                     </div>
                     <p>
-                        When you <strong><em>declare a target as your mark</em></strong>, spend 2 cunning. When you <strong><em>Backstab your mark</em></strong>, whatever damage you deal is doubled. You may only have one mark at a time.
+                        When you <strong><em>declare a target as your mark</em></strong>, spend 1 cunning. When you <strong><em>Backstab your mark and deal damage</em></strong>,you deal your maximum damage. You may only have one mark at a time.
                     </p>
                     <div class="sheet-row sheet-start">
                         <input type="checkbox" class="sheet-row-field" name="attr_thief_move_evade" />
@@ -1606,14 +1589,14 @@
                     </div>
                     <div>[min. STR +1 and level 5; must be <em>Neutral</em>, <em>Chaotic</em>, or <em>Evil</em>]</div>
                     <p>
-                        If you <strong><em>have killed for pay</em></strong>, you may begin multiclasing as a Fighter, and add Fighter moves to this playbook.
+                        If you have <strong><em>killed for pay</em></strong>, you may begin multiclasing as a Fighter, and add Fighter moves to this playbook.
                     </p>
                     <div class="sheet-row sheet-start">
                         <input type="checkbox" class="sheet-row-field" name="attr_thief_move_poisoner" />
                         <span class="sheet-h2">Poisoner</span>
                     </div>
                     <p>
-                        When you <strong><em>have the knowledge and supplies to brew a poison</em></strong>, you may spend 1 day of downtime brewing that poison, and gain 3 uses of that poison.
+                        When you <strong><em>Craft poison</strong></em>, you always succeed as if you rolled a 10+.
                     </p>
                     <div class="sheet-row sheet-start">
                         <input type="checkbox" class="sheet-row-field" name="attr_thief_move_sensedanger" />
@@ -1641,7 +1624,7 @@
                         <span class="sheet-h2">Slip Free</span>
                     </div>
                     <p>
-                        When you <strong><em>take action to release yourself from bonds of any kind</em></strong>, roll +DEX: <strong>on a 10+</strong>, you’re free, make the most of it; <strong>on a 7-9</strong>, you’re free, but choose 1:
+                        When you <strong><em>take action to release yourself from bonds of any kind</em></strong>, roll +DEX: <strong>on a 10+</strong>, you’re free, make the most of it; <strong>on a 7-9</strong>, you’re free, but choose 1 from the list below;  <strong>on a 6-</strong>, mark Dexterity and the Judge makes a move.
                     </p>
                     <ul>
                         <li>You leave something or someone important behind.</li>
